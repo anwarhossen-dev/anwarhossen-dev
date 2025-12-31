@@ -37,6 +37,7 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,git,github,vscode,docker" height="50"/>
 </p>
 
+<!-- GitHub Stats Cards - Side by Side with Proper Alignment -->
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anwarhossen-dev&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anwarhossen-dev&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
