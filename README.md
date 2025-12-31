@@ -1,103 +1,151 @@
 <!-- ===================== HEADER ===================== -->
+<h1 align="center">Hi 👋, I'm</h1>
 <h1 align="center">Md. Anwar Hossen</h1>
+
 <h3 align="center">
-Full Stack Developer • Backend & Database Specialist  
-<br/>
-Building scalable, production-ready applications
+Full Stack Developer • Frontend & Backend • Database Specialist  
+Bangladesh 🇧🇩
 </h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=anwarhossen-dev&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
-<!-- ===================== ABOUT ===================== -->
-## 👨‍💻 Professional Summary
-Experienced **Full Stack Developer** with strong expertise in **backend systems, database design, and web application development**.  
-Currently working on **enterprise-level HR & Attendance Management Systems**, with a focus on **performance, reliability, and clean architecture**.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=26&pause=1200&color=0E75B6&center=true&vCenter=true&width=900&lines=MongoDB+%7C+React+%7C+Tailwind+CSS;MERN+Stack+Developer;ASP.NET+Backend+%26+Database+Specialist;Building+Scalable+Web+Applications" />
+</p>
 
-- 🔹 Frontend, Backend & Database Development
-- 🔹 Strong in SQL Server, API Design & Reporting
-- 🔹 Production deployment experience
-- 🔹 Passionate about learning & system optimization
-- 🌱 Currently learning **FastAPI**
+<hr/>
+
+<!-- ===================== WORK ===================== -->
+## 🔭 Currently Working On
+**Artify**  
+🌐 [tubular-sundae-69af35.netlify.app](https://tubular-sundae-69af35.netlify.app)
 
 ---
+
+## 👯 Looking to Collaborate On
+**HERO**  
+🌐 [taupe-moxie-6c1b13.netlify.app](https://taupe-moxie-6c1b13.netlify.app)
+
+---
+
+## 🤝 Looking for Help With
+**Project Name**  
+🌐 [stirring-frangipane-d150ce.netlify.app](https://stirring-frangipane-d150ce.netlify.app)
+
+---
+
+## 🌱 Currently Learning
+- Modern Frontend Frameworks (React, Vue, Next.js)  
+- FastAPI & ASP.NET Core  
+- UI Animations & Performance Optimization  
+
+---
+
+## 💬 Ask Me About
+- React • Vue • GSAP • Tailwind CSS • MERN Stack  
+
+---
+
+## 📫 How to Reach Me
+📧 example@gmail.com  
+
+---
+
+## 👨‍💻 All of My Projects
+🌐 Portfolio: [portfolio link]  
+
+---
+
+## 📝 Articles & Blogs
+✍️ Blog: [blog link]  
+
+---
+
+## 📄 Experience & Resume
+📄 Resume: [resume link]  
+
+---
+
+## ⚡ Fun Fact
+I think I am funny 😄  
+
+<hr/>
 
 <!-- ===================== SKILLS ===================== -->
-## 🛠️ Technical Skills
-
-### Frontend
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3"/>
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000"/>
-</p>
-
-### Backend
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js"/>
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php"/>
-<img src="https://img.shields.io/badge/Laravel-F9322C?style=for-the-badge&logo=laravel"/>
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi"/>
-</p>
-
-### Database
-<p>
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql"/>
-</p>
-
-### Tools & DevOps
-<p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel"/>
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify"/>
-</p>
-
----
-
-<!-- ===================== PROJECTS ===================== -->
-## 📌 Key Projects
-- 🏢 **HR & Attendance Management System**
-- 📊 **Monthly Attendance & Job Card Reports**
-- 🔄 **API-Driven Backend Services**
-- 🌐 **Production-ready Web Applications**
-
----
-
-<!-- ===================== STATS ===================== -->
-## 📊 GitHub Statistics
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anwarhossen-dev&show_icons=true&theme=tokyonight" />
-</p>
+## 🛠️ Tech Stack & Tools
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anwarhossen-dev&theme=tokyonight" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
+  <img src="https://img.shields.io/badge/MERN_Stack-000000?style=for-the-badge&logo=javascript"/>
+  <img src="https://img.shields.io/badge/ASP.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/>
 </p>
 
 ---
 
-<!-- ===================== CONTACT ===================== -->
-## 🤝 Contact & Professional Links
-<p>
-<a href="https://github.com/anwarhossen-dev">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-<a href="https://linkedin.com/in/yourprofile">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
-<a href="mailto:your@email.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-</p>
+### 👨‍💻 Programming Languages
+C • C++ • C# • Go • Java • JavaScript • TypeScript • PHP • Python • Ruby • Rust • Swift • Scala • Haskell • Objective-C • Perl • Elixir • Erlang • Nim • CoffeeScript • Clojure
 
 ---
 
-⭐ *Open to collaboration, professional opportunities, and meaningful projects.*
+### 🎨 Frontend Development
+React • Vue • Svelte • Angular • Bootstrap • Tailwind CSS • HTML5 • CSS3 • Sass • Redux • Webpack • Babel • Vuetify • Materialize • Bulma • GSAP
 
+---
+
+### ⚙️ Backend Development
+Node.js • Express • NestJS • Spring • GraphQL • Kafka • RabbitMQ • Hadoop • Nginx • OpenResty • ASP.NET Core
+
+---
+
+### 🗄️ Databases
+MongoDB • MySQL • PostgreSQL • SQL Server • SQLite • Redis • Oracle • Cassandra • CouchDB • Hive • MariaDB • Elasticsearch • CockroachDB
+
+---
+
+### 📊 Data Visualization
+D3.js • Chart.js • CanvasJS • Kibana • Grafana
+
+---
+
+### ☁️ DevOps & Cloud
+AWS • Docker • Jenkins • Kubernetes • Azure • GCP • Bash • Vagrant • CircleCI • Travis CI
+
+---
+
+### 🔐 Backend as a Service (BaaS)
+Firebase • Appwrite • Amplify • Heroku
+
+---
+
+### 🧱 Frameworks
+Django • .NET • Laravel • Flask • Rails • Symfony • CodeIgniter • Electron • Quasar
+
+---
+
+### 🧪 Testing
+Cypress • Selenium • Jest • Mocha • Puppeteer • Karma • Jasmine
+
+---
+
+### 🎨 Software & Tools
+Figma • Photoshop • Illustrator • XD • Blender • Sketch • Framer • MATLAB • Postman
+
+---
+
+### 🌐 Static Site Generators
+Next.js • Nuxt.js • Gatsby • Hugo • Jekyll • VuePress • Hexo • Middleman • Sapper • 11ty
+
+<hr/>
+
+<!-- ===================== FOOTER ===================== -->
+<p align="center">
+⭐ Open to collaboration, learning, and professional opportunities
+</p>
+
+<p align="center">
+Maintained by <b>Md. Anwar Hossen</b>
+</p>
