@@ -40,7 +40,7 @@
 
 <h3 align="center">Languages & Tools</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,git,github,vscode,docker" height="50"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,treact,nextjs,nodejs,express,mongodb,firebase,tailwind,git,github,vscode," height="50"/>
 </p>
 
 <!-- GitHub Stats Cards - Side by Side -->
