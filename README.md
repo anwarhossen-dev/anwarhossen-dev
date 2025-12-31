@@ -1,9 +1,6 @@
-<p align="center">
-  <h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
+<p align="full-screen">
   <img src="https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Animated Banner" width="900"/>
 </p>
-
-<h1 align="center">Hi 👋, I'm <span style="color:#38b2ac;">MD. Anwar Hossen</span></h1>
 
 
 
