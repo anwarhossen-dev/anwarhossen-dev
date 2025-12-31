@@ -16,7 +16,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
    <a href="https://wa.me/01777498421" target="_blank">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" height="30" /></a>
+  <img src="https://ibb.co.com/WNcNhfxs" alt="WhatsApp" height="30" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/anowar21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anowar21" height="30" width="40" /></a>
 <a href="https://fb.com/https://www.facebook.com/md.anowarhossenkabir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/md.anowarhossenkabir" height="30" width="40" /></a>
 </p>
