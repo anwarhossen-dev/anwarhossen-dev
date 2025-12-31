@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" alt="Professional Animated Coding Banner" width="900"/>
-</p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=38B2AC&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+MD.+Anwar+Hossen;Passionate+MERN+Stack+Developer;Building+Scalable+Web+Applications;Deployment+%26+Performance+Expert;Bangladesh+%F0%9F%87%A7%F0%9F%87%A9" alt="Dynamic Typing Header"/>
@@ -12,12 +10,17 @@
   <img src="https://github-profile-trophy.vercel.app/?username=anwarhossen-dev&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
 </p>
 
-- 🔭 Currently working on **[Artify](https://tubular-sundae-69af35.netlify.app)**
+- 🔭 Currently working on **[Artify](https://tubular-sundae-69af35.netlify.app)**         
 - 🌱 Learning **Next.js, TypeScript & Cloud Architecture**
 - 👯 Looking to collaborate on **[Local Chef Bazaar](https://localchefbazaar-612c0.web.app/)**
 - 🤝 Need help with **[Ticket System](https://stirring-frangipane-d150ce.netlify.app/)**
 - 💬 Ask me about **React, Node.js, MongoDB, Firebase**
 - 📫 Reach me: **anwarhossendeveloper21@gmail.com**
+- <div>
+  <p align="right">
+  <img src="https://user-images.githubusercontent.com/74038190/212749695-a6817c5a-a794-462b-afca-1b5ce7dd5e63.gif" alt="Professional Animated Coding Banner" width="900"/>
+</p>
+</div>
 
 <h3 align="center">Connect with Me</h3>
 <p align="center">
