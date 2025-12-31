@@ -1,27 +1,17 @@
-<p align="full-screen">
-  <img src="https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Animated Banner" width="900"/>
-</p>
-
 <p align="center">
-  <img src="https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Animated Banner" width="900"/>
-</p> 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Typing SVG">
+  <!-- Replace this GIF link with your actual animated banner GIF -->
+  <img src="https://i.ibb.co/animated-banner.gif" alt="Animated Banner" width="900"/>
 </p>
-
-
-
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
 </p>
 
-
 <h1 align="center">Hi 👋, I'm MD. Anwar Hossen</h1>
 <h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
 
 - 🔭 I’m currently working on [Artify](https://tubular-sundae-69af35.netlify.app)
-- 🌱 I’m currently learning **programming hero**
+- 🌱 I’m currently learning **Programming Hero**
 - 👯 I’m looking to collaborate on [Local Chef Bazaar](https://localchefbazaar-612c0.web.app/)
 - 🤝 I’m looking for help with [Ticket System](https://stirring-frangipane-d150ce.netlify.app/)
 - 💬 Ask me about **React, MongoDB, Node.js**
@@ -85,12 +75,10 @@ Check out a live interactive demo of my particle animation:
 |---------|------|------|
 | Artify | [Live](https://tubular-sundae-69af35.netlify.app) | [Repo](https://tubular-sundae-69af35.netlify.app) |
 | Local Chef Bazaar | [Live](https://localchefbazaar-612c0.web.app) | [Repo](https://localchefbazaar-612c0.web.app) |
-| Ticket System | [Live](https://stirring-frangipane-d150ce.netlify.app) | [Repo]((https://stirring-frangipane-d150ce.netlify.app) |
+| Ticket System | [Live](https://stirring-frangipane-d150ce.netlify.app) | [Repo](https://stirring-frangipane-d150ce.netlify.app) |
 
 ---
 
 <p align="center">
   Made with ❤️ by MD. Anwar Hossen
 </p>
-
----
