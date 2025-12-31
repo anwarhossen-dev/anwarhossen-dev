@@ -2,6 +2,13 @@
   <img src="https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Animated Banner" width="900"/>
 </p>
 
+<p align="center">
+  <img src="https://yourdomain.com/animated-banner.gif" alt="Animated Banner" width="900"/>
+</p> 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
+</p>
+
 
 
 
