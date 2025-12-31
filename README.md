@@ -19,7 +19,7 @@
     <td valign="top" width="50%">
       <ul>
         <li>🔭 Currently working on <a href="https://tubular-sundae-69af35.netlify.app"><strong>Artify</strong></a></li>
-        <li>🌱 Mastering <strong>Next.js, TypeScript, Cloud Architecture</strong></li>
+        <li>🌱 Learning <strong>Next.js, Advanced React Patterns & Cloud Architecture</strong></li>
         <li>👯 Open to collaborate on <a href="https://localchefbazaar-612c0.web.app/"><strong>Local Chef Bazaar</strong></a></li>
         <li>🤝 Seeking collaboration on <a href="https://stirring-frangipane-d150ce.netlify.app/"><strong>Ticket System</strong></a></li>
         <li>💬 Ask me about <strong>React, Node.js, MongoDB, Firebase, Tailwind CSS</strong></li>
@@ -41,7 +41,7 @@
 
 <h3 align="center">Tech Stack & Tools</h3>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,git,github,vscode,postman" height="60"/>&perline=10
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,nodejs,express,mongodb,firebase,tailwind,git,github,vscode,postman,vercel,netlify" height="60"/>&perline=8
 </p>
 
 <div align="center">
