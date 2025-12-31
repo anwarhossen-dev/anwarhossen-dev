@@ -16,7 +16,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
    <a href="https://wa.me/01777498421" target="_blank">
-  <img src="https://i.ibb.co.com/VcwzbmzZ/whatsapp.png" alt="WhatsApp" height="30" /></a>
+   <a href="https://wa.me/01777498421" target="blank"><img align="center" src="https://i.ibb.co.com/VcwzbmzZ/whatsapp.png-linked-in-alt.svg" alt="https://i.ibb.co.com/VcwzbmzZ/whatsapp.png" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/anowar21" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/anowar21" height="30" width="40" /></a>
 <a href="https://fb.com/https://www.facebook.com/md.anowarhossenkabir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/md.anowarhossenkabir" height="30" width="40" /></a>
 </p>
