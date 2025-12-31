@@ -1,12 +1,11 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Hi%20There!-👋-blue?style=for-the-badge&logo=github" alt="Hi there" />
+  <h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
+  <img src="https://i.ibb.co.com/4gwmRny6/Teal-and-Black-Modern-Programmer-New-Linked-In-Banner-2.jpg" alt="Animated Banner" width="900"/>
 </p>
 
 <h1 align="center">Hi 👋, I'm <span style="color:#38b2ac;">MD. Anwar Hossen</span></h1>
-<h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
-<p align="center">
-  <img src="https://yourdomain.com/animated-banner.gif" alt="Animated Banner" width="900"/>
-</p>
+
+
 
 
 <p align="center">
