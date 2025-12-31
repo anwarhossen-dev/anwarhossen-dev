@@ -1,3 +1,8 @@
+<!-- ===================== BANNER ===================== -->
+<p align="center">
+  <img src="https://your-banner-link.com/banner.png" alt="Banner" width="100%" />
+</p>
+
 <!-- ===================== HEADER ===================== -->
 <h1 align="center">Hi 👋, I'm</h1>
 <h1 align="center">Md. Anwar Hossen</h1>
@@ -13,6 +18,21 @@ Bangladesh 🇧🇩
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&size=26&pause=1200&color=0E75B6&center=true&vCenter=true&width=900&lines=MongoDB+%7C+React+%7C+Tailwind+CSS;MERN+Stack+Developer;ASP.NET+Backend+%26+Database+Specialist;Building+Scalable+Web+Applications" />
+</p>
+
+<hr/>
+
+<!-- ===================== SOCIAL MEDIA ===================== -->
+<p align="center">
+  <a href="https://www.facebook.com/your-facebook" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/anwarhossen-dev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 </p>
 
 <hr/>
@@ -37,19 +57,19 @@ Bangladesh 🇧🇩
 ---
 
 ## 🌱 Currently Learning
-- Modern Frontend Frameworks (React, Vue, Next.js)  
+- Modern Frontend Frameworks (React, Next.js)  
 - FastAPI & ASP.NET Core  
 - UI Animations & Performance Optimization  
 
 ---
 
 ## 💬 Ask Me About
-- React • Vue • GSAP • Tailwind CSS • MERN Stack  
+- React • Tailwind CSS • MERN Stack  
 
 ---
 
 ## 📫 How to Reach Me
-📧 example@gmail.com  
+📧 your.email@example.com
 
 ---
 
@@ -87,57 +107,31 @@ I think I am funny 😄
 ---
 
 ### 👨‍💻 Programming Languages
-C • C++ • C# • Go • Java • JavaScript • TypeScript • PHP • Python • Ruby • Rust • Swift • Scala • Haskell • Objective-C • Perl • Elixir • Erlang • Nim • CoffeeScript • Clojure
-
----
+C# • JavaScript • PHP • Python  
 
 ### 🎨 Frontend Development
-React • Vue • Svelte • Angular • Bootstrap • Tailwind CSS • HTML5 • CSS3 • Sass • Redux • Webpack • Babel • Vuetify • Materialize • Bulma • GSAP
-
----
+React • Bootstrap • Tailwind CSS • HTML5 • CSS3 
 
 ### ⚙️ Backend Development
-Node.js • Express • NestJS • Spring • GraphQL • Kafka • RabbitMQ • Hadoop • Nginx • OpenResty • ASP.NET Core
-
----
+Node.js • Express • ASP.NET Core
 
 ### 🗄️ Databases
-MongoDB • MySQL • PostgreSQL • SQL Server • SQLite • Redis • Oracle • Cassandra • CouchDB • Hive • MariaDB • Elasticsearch • CockroachDB
-
----
+MongoDB • MySQL • SQL Server 
 
 ### 📊 Data Visualization
-D3.js • Chart.js • CanvasJS • Kibana • Grafana
-
----
-
-### ☁️ DevOps & Cloud
-AWS • Docker • Jenkins • Kubernetes • Azure • GCP • Bash • Vagrant • CircleCI • Travis CI
-
----
+Chart.js • CanvasJS 
 
 ### 🔐 Backend as a Service (BaaS)
-Firebase • Appwrite • Amplify • Heroku
-
----
+Firebase 
 
 ### 🧱 Frameworks
-Django • .NET • Laravel • Flask • Rails • Symfony • CodeIgniter • Electron • Quasar
-
----
-
-### 🧪 Testing
-Cypress • Selenium • Jest • Mocha • Puppeteer • Karma • Jasmine
-
----
+.NET • Laravel • React
 
 ### 🎨 Software & Tools
-Figma • Photoshop • Illustrator • XD • Blender • Sketch • Framer • MATLAB • Postman
-
----
+Figma • Photoshop • Illustrator • Framer • Postman
 
 ### 🌐 Static Site Generators
-Next.js • Nuxt.js • Gatsby • Hugo • Jekyll • VuePress • Hexo • Middleman • Sapper • 11ty
+Next.js 
 
 <hr/>
 
@@ -149,3 +143,4 @@ Next.js • Nuxt.js • Gatsby • Hugo • Jekyll • VuePress • Hexo • Mid
 <p align="center">
 Maintained by <b>Md. Anwar Hossen</b>
 </p>
+
