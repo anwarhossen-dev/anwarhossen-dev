@@ -1,3 +1,74 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Hi%20There!-👋-blue?style=for-the-badge&logo=github" alt="Hi there" />
+</p>
+
+<h1 align="center">Hi 👋, I'm <span style="color:#38b2ac;">MD. Anwar Hossen</span></h1>
+<h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/anowar21" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://wa.me/01777498421" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  </a>
+  <a href="mailto:anwarhossendeveloper21@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
+</p>
+✅ Features of this banner:
+Hello badge: Welcoming the visitor with an emoji.
+
+Name and role: Centered and highlighted.
+
+Social links: Clickable LinkedIn, WhatsApp, and Email buttons.
+
+Animated typing text: Showcases your skills and passions dynamically.
+
+If you want, I can combine this banner with the WebGL particle section, GitHub stats, and project showcase to create a full pro-level GitHub README that’s ready to copy-paste.
+
+Do you want me to do that?
+
+
+
+
+
+
+
+You said:
+banner image?
+
+
+ChatGPT said:
+Ah! You want a single banner image (like a hero/banner at the top of your README) instead of a dynamic Markdown section. I can create a custom banner image with your name, role, and tech stack.
+
+Here’s an example of what the banner could contain:
+
+Text:
+
+“Hi 👋, I’m MD. Anwar Hossen”
+
+“MERN Stack | Full-Stack Developer | Bangladesh 🇧🇩”
+
+Background: Modern dark theme with abstract particle or gradient style.
+
+Icons: Small icons for React, Node.js, MongoDB, Express.
+
+Size: 1200×400 px (fits nicely as a GitHub README header)
+
+I can generate a ready-to-use image for your README.
+
+Do you want me to create this banner image for you?
+
+
+
+
+
+
 <h1 align="center">Hi 👋, I'm MD. Anwar Hossen</h1>
 <h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
 
@@ -64,9 +135,9 @@ Check out a live interactive demo of my particle animation:
 
 | Project | Demo | Repo |
 |---------|------|------|
-| Artify | [Live](https://tubular-sundae-69af35.netlify.app) | [Repo](https://github.com/anwarhossen-dev/artify) |
-| Local Chef Bazaar | [Live](https://localchefbazaar-612c0.web.app/) | [Repo](https://github.com/anwarhossen-dev/local-chef-bazaar) |
-| Ticket System | [Live](https://stirring-frangipane-d150ce.netlify.app/) | [Repo](https://github.com/anwarhossen-dev/ticket-system) |
+| Artify | [Live](https://tubular-sundae-69af35.netlify.app) | [Repo](https://tubular-sundae-69af35.netlify.app) |
+| Local Chef Bazaar | [Live](https://localchefbazaar-612c0.web.app) | [Repo](https://localchefbazaar-612c0.web.app) |
+| Ticket System | [Live](https://stirring-frangipane-d150ce.netlify.app) | [Repo]((https://stirring-frangipane-d150ce.netlify.app) |
 
 ---
 
@@ -75,53 +146,3 @@ Check out a live interactive demo of my particle animation:
 </p>
 
 ---
-
-## 🌌 Interactive Particle Background
-
-Experience a live WebGL particle animation demo below!  
-Click the button to open the full interactive version.
-
-<p align="center">
-  <a href="https://mythemeway.github.io/Dark-Particle/" target="_blank">
-    <img src="https://img.shields.io/badge/Open%20Live%20Demo-Particle%20Animation-blue?style=for-the-badge&logo=webflow" alt="Live Demo">
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/assets/main/particle-preview.gif" alt="Particle Preview" width="700" style="border-radius: 15px; box-shadow: 0px 5px 15px rgba(0,0,0,0.3)"/>
-</p>
-
-### 📝 How It Works (Snippet)
-
-```javascript
-// Simple WebGL particle setup using Three.js
-import * as THREE from 'three';
-
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
-
-const particlesGeometry = new THREE.BufferGeometry();
-const particleCount = 5000;
-const positions = new Float32Array(particleCount * 3);
-
-for (let i = 0; i < particleCount * 3; i++) {
-  positions[i] = (Math.random() - 0.5) * 100;
-}
-
-particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-const particlesMaterial = new THREE.PointsMaterial({ color: 0xffffff, size: 0.5 });
-const particles = new THREE.Points(particlesGeometry, particlesMaterial);
-scene.add(particles);
-
-camera.position.z = 50;
-
-function animate() {
-  requestAnimationFrame(animate);
-  particles.rotation.y += 0.001;
-  renderer.render(scene, camera);
-}
-
-animate();
