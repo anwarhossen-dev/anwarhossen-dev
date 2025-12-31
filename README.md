@@ -1,11 +1,65 @@
 <p align="center">
-  <!-- Replace this GIF link with your actual animated banner GIF -->
-  <img src="https://i.ibb.co/animated-banner.gif" alt="Animated Banner" width="900"/>
+  <div style="max-width: 900px; margin: 0 auto; position: relative; overflow: hidden; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
+    <div class="carousel" style="display: flex; transition: transform 0.8s ease-in-out;">
+      <!-- Slide 1 -->
+      <div class="slide" style="min-width: 100%;"><img src="https://markovate.com/wp-content/uploads/2022/08/top-MERN-Stack.webp" alt="MERN Stack Banner" style="width: 100%; height: auto; display: block;"></div>
+      <!-- Slide 2 -->
+      <div class="slide" style="min-width: 100%;"><img src="https://www.shutterstock.com/image-vector/programming-web-banner-best-languages-260nw-2392481249.jpg" alt="Programming Banner" style="width: 100%; height: auto; display: block;"></div>
+      <!-- Slide 3 -->
+      <div class="slide" style="min-width: 100%;"><img src="https://www.shutterstock.com/image-vector/full-stack-developer-programmer-who-260nw-2273927175.jpg" alt="Full Stack Developer" style="width: 100%; height: auto; display: block;"></div>
+      <!-- Slide 4 -->
+      <div class="slide" style="min-width: 100%;"><img src="https://markovate.com/wp-content/uploads/2022/08/top-MERN-Stack.webp" alt="MERN Stack Repeat" style="width: 100%; height: auto; display: block;"></div>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div style="position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px;">
+      <span class="dot active" onclick="currentSlide(0)" style="height: 12px; width: 12px; background-color: #38b2ac; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+      <span class="dot" onclick="currentSlide(1)" style="height: 12px; width: 12px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+      <span class="dot" onclick="currentSlide(2)" style="height: 12px; width: 12px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+      <span class="dot" onclick="currentSlide(3)" style="height: 12px; width: 12px; background-color: #bbb; border-radius: 50%; display: inline-block; cursor: pointer;"></span>
+    </div>
+  </div>
+
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelector('.carousel');
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlides(n) {
+      if (n >= 4) slideIndex = 0;
+      if (n < 0) slideIndex = 3;
+      slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === slideIndex));
+      dots[slideIndex].style.backgroundColor = '#38b2ac';
+    }
+
+    function currentSlide(n) {
+      slideIndex = n;
+      showSlides(slideIndex);
+    }
+
+    // Auto play
+    setInterval(() => {
+      slideIndex++;
+      showSlides(slideIndex);
+    }, 5000);
+
+    // Initial
+    showSlides(slideIndex);
+  </script>
 </p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
 </p>
+
+
+<p align="center">
+  <!-- Replace this GIF link with your actual animated banner GIF -->
+  <img src="https://i.ibb.co/animated-banner.gif" alt="Animated Banner" width="900"/>
+</p>
+
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
