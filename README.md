@@ -7,6 +7,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=38b2ac&width=600&lines=Building+Interactive+Web+Applications;React,+Node.js,+MongoDB,+Express;Deployment+%26+Optimization;Always+Learning+New+Technologies" alt="Typing SVG">
+</p>
+
 <h1 align="center">Hi 👋, I'm MD. Anwar Hossen</h1>
 <h3 align="center">MERN Stack | Full-Stack Developer | Deployment & Optimization | Bangladesh 🇧🇩</h3>
 
