@@ -9,6 +9,15 @@
 <h1 align="center">Full-Stack Developer</h1>
 <h3 align="center">React • Next.js • Node.js • Express • MongoDB • Firebase</h3>
 
+<ul>
+  <li>🔭 Currently working as a <strong>Jr. Programmer (.NET)</strong></li>
+  <li>🌱 Learning <strong>Next.js, Advanced React Patterns & Cloud Architecture</strong></li>
+  <li>👯 Open to collaborate on <strong>Full-Stack (MERN / .NET) projects</strong></li>
+  <li>🤝 Interested in building <strong>scalable enterprise applications</strong></li>
+  <li>💬 Ask me about <strong>React, Node.js, ASP.NET Core, MS SQL Server</strong></li>
+  <li>📫 Reach me: <strong>anwarhossendeveloper21@gmail.com</strong></li>
+</ul>
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anwarhossen-dev&theme=radical&no-frame=true&margin-w=15&margin-h=15&row=1" alt="GitHub Trophies"/>
 </p>
