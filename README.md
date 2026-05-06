@@ -13,7 +13,7 @@
 <h3 align="center">Jr. Programmer (.NET)</h3>
 <p align="center">
   <strong>Genuine Technology & Research Ltd.</strong><br/>
-  Jan 2024 – Present • On-site<br/>
+sep 2024 – Present • On-site<br/>
   ASP.NET Core • MS SQL Server • REST APIs
 </p>
 
