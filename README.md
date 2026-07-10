@@ -129,6 +129,10 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=anwarhossen-dev&theme=radical&hide_border=true" width="48%" alt="Anwar Streak Stats"/>
 </div>
 
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anwarhossen-dev&theme=radical&hide_border=true&area=true" width="100%"/>
+</p>
 <br/>
 
 <p align="center">
