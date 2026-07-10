@@ -12,14 +12,17 @@
 <!-- 📊 Counters Section (Unique, Profile, and Total Views) -->
 <div align="center">
   <!-- Unique Visitor Counter -->
-  <img src="https://img.shields.io/endpoint?url=https://hits.dwyl.com/anwarhossen-dev/anwarhossen-dev.json&color=00d2ff&label=UNIQUE+VISITORS&style=for-the-badge" alt="Unique Visitors"/>
+  <!-- <img src="https://img.shields.io/endpoint?url=https://hits.dwyl.com/anwarhossen-dev/anwarhossen-dev.json&color=00d2ff&label=UNIQUE+VISITORS&style=for-the-badge" alt="Unique Visitors"/> -->
+
+  <!-- Unique Visitors (Cyan) -->
+  <img src="https://komarev.com/ghpvc/?username=anwarhossen-dev&label=UNIQUE%20VISITORS&color=00d2ff&style=for-the-badge" alt="Unique Visitors"/>
+  
   
   <!-- Profile Visitors Badge -->
   <img src="https://komarev.com/ghpvc/?username=anwarhossen-dev&color=00d2ff&style=for-the-badge&label=PROFILE+VISITORS" alt="Profile Visitors"/>
 
   <!-- Total Page Views Counter -->
-  <img src="https://img.shields.io/badge/dynamic/json?color=38B2AC&label=TOTAL+VIEWS&query=value&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fanwarhossen-dev%2Fvisits&style=for-the-badge" alt="Total Views"/>
-</div>
+<img src="https://komarev.com/ghpvc/?username=anwarhossen-dev&color=38b2ac&style=for-the-badge&label=TOTAL+VIEWS" alt="Total Views" />
 
 <br/>
 
