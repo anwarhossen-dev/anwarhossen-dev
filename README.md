@@ -44,7 +44,7 @@
   <tr>
     <td width="55%" valign="top">
       <h3>🚀 About Me</h3>
-      <p>I am a highly motivated <b>Full-Stack Developer</b> specializing in the <b>.NET Ecosystem</b> and <b>MERN Stack</b>. Currently, I am contributing as a <b>Jr. Programmer (.NET)</b> at <i>Genuine Technology & Research Ltd.</i></p>
+      <p>I am a highly motivated <b>Full-Stack Developer</b> specializing in the <b>.NET Ecosystem</b> and <b>MERN Stack</b>. Currently, I am contributing as a <b>Full-Stack Developer</b> at <i>Genuine Technology & Research Ltd.</i></p>
       <ul>
         <li>🔭 <b>Working on:</b> Enterprise ERP & RESTful APIs.</li>
         <li>🌱 <b>Learning:</b> Next.js 14, Microservices, and Azure Cloud.</li>
