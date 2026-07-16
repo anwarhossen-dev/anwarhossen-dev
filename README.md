@@ -9,6 +9,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00d2ff&center=true&vCenter=true&width=900&lines=Full-Stack+Software+Engineer;Expert+in+.NET+Core+%26+MERN+Stack;Building+Scalable+Web+Applications;ASP.NET+Core+|+React+|+Next.js;Based+in+Bangladesh+%F0%9F%87%A7%F0%9F%87%A9"/>
 </p>
 
+
+
 <!-- 📊 Counters Section (Unique, Profile, and Total Views) -->
 <div align="center">
   <!-- Unique Visitor Counter -->
@@ -25,6 +27,13 @@
 <img src="https://komarev.com/ghpvc/?username=anwarhossen-dev&color=38b2ac&style=for-the-badge&label=TOTAL+VIEWS" alt="Total Views" />
 
 <br/>
+
+<!-- 📊 Advanced Metrics & Time -->
+<div align="center">
+  <!-- 🕒 Local Time Badge -->
+  <img src="https://img.shields.io/badge/Local%20Time-Bangladesh%20(GMT%2B6)-blue?style=for-the-badge&logo=clock" alt="Local Time"/>
+</div>
+
 
 <!-- 🔗 Social Links Section -->
 <div align="center">
@@ -52,6 +61,7 @@
         <li>💬 <b>Ask me:</b> C#, ASP.NET Core, React, and SQL Optimization.</li>
       </ul>
     </td>
+    
     <td width="45%" valign="top">
       <h3>📊 Language Proficiency</h3>
      <p align="center">
