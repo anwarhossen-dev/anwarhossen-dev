@@ -1,0 +1,20 @@
+<svg width="800" height="170" viewBox="0 0 800 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="masterWaveFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#0b071e" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="masterStrokeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="50%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="170" rx="16" fill="#0b071e" stroke="#7C3AED" stroke-width="1.5"/>
+  
+  <path d="M 40 130 Q 120 75, 200 95 T 360 45 T 520 75 T 680 35 T 760 25 L 760 150 L 40 150 Z" fill="url(#masterWaveFill)" />
+  <path d="M 40 130 Q 120 75, 200 95 T 360 45 T 520 75 T 680 35 T 760 25" fill="none" stroke="url(#masterStrokeLine)" stroke-width="3.5" />
+  
+  <text x="40" y="35" fill="#00D2FF" font-family="monospace" font-size="13" font-weight="bold">Continuous Spline Velocity • Peak: 235 Commits/Mo</text>
+</svg>

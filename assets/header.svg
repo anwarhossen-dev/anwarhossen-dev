@@ -1,0 +1,24 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <title>MD. Anwar Hossen (আনোয়ার হোসেন) - Full-Stack Software Engineer</title>
+  <defs>
+    <linearGradient id="masterHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b071e" />
+      <stop offset="50%" stop-color="#180e36" />
+      <stop offset="100%" stop-color="#090518" />
+    </linearGradient>
+    <linearGradient id="masterTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#00D2FF" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="220" rx="20" fill="url(#masterHeroGrad)" stroke="#7C3AED" stroke-width="2" stroke-opacity="0.8"/>
+  <path d="M 0 160 Q 225 100, 450 160 T 900 140 L 900 220 L 0 220 Z" fill="#7C3AED" fill-opacity="0.1"/>
+
+  <text x="50%" y="36%" text-anchor="middle" fill="url(#masterTextGrad)" font-family="monospace, 'Fira Code', sans-serif" font-size="38" font-weight="bold" letter-spacing="2">MD. ANWAR HOSSEN</text>
+  <text x="50%" y="56%" text-anchor="middle" fill="#FFFFFF" font-family="monospace, sans-serif" font-size="22" font-weight="extrabold" letter-spacing="2">Full-Stack Software Engineer (.NET &amp; MERN Stack)</text>
+  
+  <text x="50%" y="75%" text-anchor="middle" fill="#00D2FF" font-family="monospace, sans-serif" font-size="14" font-weight="bold">Full-Stack Developer at Genuine Technology &amp; Research Ltd.</text>
+  <text x="50%" y="88%" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Based in Bangladesh 🇧🇩 • &lt; 2 Years Professional Experience</text>
+</svg>
