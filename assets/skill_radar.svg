@@ -1,63 +1,81 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="280" viewBox="0 0 860 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="srBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b071e"/>
-      <stop offset="100%" stop-color="#130f2e"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0824"/>
+      <stop offset="100%" stop-color="#0a071a"/>
     </linearGradient>
-    <linearGradient id="srFill" x1="50%" y1="0%" x2="50%" y2="100%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.25"/>
+    <linearGradient id="radarFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0.2"/>
     </linearGradient>
-    <filter id="srGlow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <rect width="900" height="320" rx="16" fill="url(#srBg)" stroke="#7C3AED" stroke-width="1.5"/>
+  <rect width="860" height="280" rx="18" fill="url(#bg)" stroke="#7c3aed" stroke-width="1.2" stroke-opacity="0.4"/>
 
   <!-- Title -->
-  <text x="450" y="28" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="13" font-weight="bold">🎯 Engineering Skill Radar — .NET &amp; MERN Stack Full-Stack Developer</text>
+  <text x="430" y="25" text-anchor="middle" fill="#00d2ff" font-family="Consolas,monospace" font-size="13" font-weight="bold">🎯  Engineering Skill Radar  —  .NET &amp; MERN Stack Full-Stack Developer</text>
 
-  <!-- Pentagon Guide Rings (3 levels) -->
-  <!-- Outer -->
-  <polygon points="450,55 590,135 542,258 358,258 310,135" fill="none" stroke="#334155" stroke-width="1" opacity="0.5"/>
-  <!-- Mid -->
-  <polygon points="450,88 536,147 506,222 394,222 364,147" fill="none" stroke="#334155" stroke-width="1" opacity="0.4"/>
-  <!-- Inner -->
-  <polygon points="450,121 482,159 470,186 430,186 418,159" fill="none" stroke="#334155" stroke-width="0.8" opacity="0.3"/>
+  <!-- LEFT: Radar chart centered at 215,160 -->
+  <!-- Guide rings -->
+  <polygon points="215,55 325,118 293,230 137,230 105,118" fill="none" stroke="#1e2d4a" stroke-width="1" opacity="0.7"/>
+  <polygon points="215,85 291,133 269,208 161,208 139,133" fill="none" stroke="#1e2d4a" stroke-width="1" opacity="0.5"/>
+  <polygon points="215,115 259,148 245,186 185,186 171,148" fill="none" stroke="#1e2d4a" stroke-width="0.8" opacity="0.35"/>
+  <!-- Spokes -->
+  <g stroke="#1e2d4a" stroke-width="0.7" opacity="0.5">
+    <line x1="215" y1="55"  x2="215" y2="230"/>
+    <line x1="325" y1="118" x2="105" y2="118"/>
+    <line x1="293" y1="230" x2="139" y2="133"/>
+    <line x1="137" y1="230" x2="291" y2="133"/>
+  </g>
+  <!-- Data shape (88% avg) -->
+  <polygon points="215,62 312,122 276,222 154,224 116,120" fill="url(#radarFill)" stroke="#00d2ff" stroke-width="2.5" filter="url(#glow)"/>
+  <!-- Dots -->
+  <circle cx="215" cy="62"  r="6" fill="#a855f7" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="312" cy="122" r="6" fill="#00d2ff" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="276" cy="222" r="6" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="154" cy="224" r="6" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="116" cy="120" r="6" fill="#ec4899" stroke="#fff" stroke-width="1.5"/>
+  <!-- Labels -->
+  <text x="215" y="52" text-anchor="middle" fill="#a855f7" font-family="Consolas,monospace" font-size="10" font-weight="bold">ASP.NET Core · 85%</text>
+  <text x="330" y="115" fill="#00d2ff" font-family="Consolas,monospace" font-size="10" font-weight="bold">React · 88%</text>
+  <text x="272" y="248" text-anchor="middle" fill="#10b981" font-family="Consolas,monospace" font-size="10" font-weight="bold">SQL · 82%</text>
+  <text x="80" y="248" fill="#f59e0b" font-family="Consolas,monospace" font-size="10" font-weight="bold">MongoDB · 80%</text>
+  <text x="22" y="115" fill="#ec4899" font-family="Consolas,monospace" font-size="10" font-weight="bold">Git · 86%</text>
 
-  <!-- Spoke Lines -->
-  <line x1="450" y1="55"  x2="450" y2="258" stroke="#334155" stroke-width="0.7" opacity="0.4"/>
-  <line x1="590" y1="135" x2="310" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.4"/>
-  <line x1="542" y1="258" x2="360" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.3"/>
-  <line x1="358" y1="258" x2="540" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.3"/>
+  <!-- RIGHT: Skill bars -->
+  <rect x="440" y="50" width="400" height="210" rx="14" fill="#0b071e" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.5"/>
 
-  <!-- Data Shape (88% avg scale) -->
-  <polygon points="450,62 575,138 532,248 368,250 326,136" fill="url(#srFill)" stroke="#00D2FF" stroke-width="2.5" filter="url(#srGlow)"/>
+  <!-- Row 1 -->
+  <text x="460" y="80" fill="#a855f7" font-family="Consolas,monospace" font-size="12" font-weight="bold">ASP.NET Core &amp; C#</text>
+  <rect x="460" y="88" width="360" height="10" rx="5" fill="#1e1346"/>
+  <rect x="460" y="88" width="306" height="10" rx="5" fill="#a855f7"/>
+  <text x="810" y="98" text-anchor="end" fill="#a855f7" font-family="Consolas,monospace" font-size="11" font-weight="bold">85%</text>
 
-  <!-- Data Points with colored dots -->
-  <circle cx="450" cy="62"  r="6" fill="#A855F7" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
-  <circle cx="575" cy="138" r="6" fill="#00D2FF" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
-  <circle cx="532" cy="248" r="6" fill="#10B981" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
-  <circle cx="368" cy="250" r="6" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
-  <circle cx="326" cy="136" r="6" fill="#EC4899" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+  <!-- Row 2 -->
+  <text x="460" y="122" fill="#00d2ff" font-family="Consolas,monospace" font-size="12" font-weight="bold">React &amp; MERN Stack</text>
+  <rect x="460" y="130" width="360" height="10" rx="5" fill="#1e1346"/>
+  <rect x="460" y="130" width="317" height="10" rx="5" fill="#00d2ff"/>
+  <text x="810" y="140" text-anchor="end" fill="#00d2ff" font-family="Consolas,monospace" font-size="11" font-weight="bold">88%</text>
 
-  <!-- Skill Labels -->
-  <text x="450" y="44" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="12" font-weight="bold">ASP.NET Core &amp; C# · 85%</text>
+  <!-- Row 3 -->
+  <text x="460" y="164" fill="#10b981" font-family="Consolas,monospace" font-size="12" font-weight="bold">SQL Optimization</text>
+  <rect x="460" y="172" width="360" height="10" rx="5" fill="#1e1346"/>
+  <rect x="460" y="172" width="295" height="10" rx="5" fill="#10b981"/>
+  <text x="810" y="182" text-anchor="end" fill="#10b981" font-family="Consolas,monospace" font-size="11" font-weight="bold">82%</text>
 
-  <text x="600" y="128" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">React &amp; MERN</text>
-  <text x="600" y="143" fill="#00D2FF" font-family="monospace" font-size="11">88%</text>
+  <!-- Row 4 -->
+  <text x="460" y="206" fill="#f59e0b" font-family="Consolas,monospace" font-size="12" font-weight="bold">MongoDB &amp; NoSQL</text>
+  <rect x="460" y="214" width="360" height="10" rx="5" fill="#1e1346"/>
+  <rect x="460" y="214" width="288" height="10" rx="5" fill="#f59e0b"/>
+  <text x="810" y="224" text-anchor="end" fill="#f59e0b" font-family="Consolas,monospace" font-size="11" font-weight="bold">80%</text>
 
-  <text x="540" y="272" fill="#10B981" font-family="monospace" font-size="12" font-weight="bold">SQL Optimization</text>
-  <text x="556" y="286" fill="#10B981" font-family="monospace" font-size="11">82%</text>
-
-  <text x="200" y="272" fill="#F59E0B" font-family="monospace" font-size="12" font-weight="bold">MongoDB &amp; NoSQL</text>
-  <text x="230" y="286" fill="#F59E0B" font-family="monospace" font-size="11">80%</text>
-
-  <text x="155" y="128" fill="#EC4899" font-family="monospace" font-size="12" font-weight="bold">Git &amp; DevOps</text>
-  <text x="175" y="143" fill="#EC4899" font-family="monospace" font-size="11">86%</text>
-
-  <!-- Bottom Label -->
-  <text x="450" y="308" text-anchor="middle" fill="#475569" font-family="monospace" font-size="11">Self-assessed competency · Growing rapidly · &lt; 2 Years Experience · Genuine Technology &amp; Research Ltd.</text>
+  <!-- Row 5 -->
+  <text x="460" y="248" fill="#ec4899" font-family="Consolas,monospace" font-size="12" font-weight="bold">Git &amp; Dev Ops</text>
+  <rect x="460" y="256" width="360" height="10" rx="5" fill="#1e1346"/>
+  <rect x="460" y="256" width="310" height="10" rx="5" fill="#ec4899"/>
+  <text x="810" y="266" text-anchor="end" fill="#ec4899" font-family="Consolas,monospace" font-size="11" font-weight="bold">86%</text>
 </svg>

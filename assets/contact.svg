@@ -1,0 +1,41 @@
+<svg width="860" height="90" viewBox="0 0 860 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d0824"/>
+      <stop offset="100%" stop-color="#070414"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="860" height="90" rx="14" fill="url(#bg)"/>
+  <rect x="0" y="0" width="860" height="2.5" rx="1" fill="url(#borderGrad)"/>
+  <rect x="0" y="87.5" width="860" height="2.5" rx="1" fill="url(#borderGrad)"/>
+
+  <!-- Title -->
+  <text x="430" y="24" text-anchor="middle" fill="#94a3b8" font-family="Consolas,monospace" font-size="12" font-weight="bold">📬  Contact With Me</text>
+
+  <!-- Pill Buttons -->
+  <!-- LinkedIn -->
+  <rect x="38" y="36" width="140" height="38" rx="12" fill="#0d0824" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="108" y="59" text-anchor="middle" fill="#00d2ff" font-family="Consolas,monospace" font-size="13" font-weight="bold">LinkedIn ↗</text>
+
+  <!-- WhatsApp -->
+  <rect x="193" y="36" width="148" height="38" rx="12" fill="#0d0824" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="267" y="59" text-anchor="middle" fill="#10b981" font-family="Consolas,monospace" font-size="13" font-weight="bold">WhatsApp ↗</text>
+
+  <!-- Facebook -->
+  <rect x="355" y="36" width="148" height="38" rx="12" fill="#0d0824" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="429" y="59" text-anchor="middle" fill="#60a5fa" font-family="Consolas,monospace" font-size="13" font-weight="bold">Facebook ↗</text>
+
+  <!-- Email -->
+  <rect x="517" y="36" width="155" height="38" rx="12" fill="#0d0824" stroke="#7c3aed" stroke-width="1.2"/>
+  <text x="594" y="59" text-anchor="middle" fill="#f87171" font-family="Consolas,monospace" font-size="13" font-weight="bold">Email Direct ↗</text>
+
+  <!-- Live Dashboard CTA -->
+  <rect x="686" y="36" width="162" height="38" rx="12" fill="#4c1d95"/>
+  <text x="767" y="59" text-anchor="middle" fill="#ffffff" font-family="Consolas,monospace" font-size="12" font-weight="bold">🚀 Dashboard ↗</text>
+</svg>

@@ -1,164 +1,134 @@
-<svg width="900" height="165" viewBox="0 0 900 165" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cgBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d0824"/>
       <stop offset="100%" stop-color="#0a071a"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="165" rx="18" fill="url(#cgBg)" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.5"/>
 
-  <!-- Header Stats -->
-  <text x="22" y="28" fill="#FFFFFF" font-family="'Courier New', monospace" font-size="13" font-weight="bold">📊 365-Day Git Contribution Graph</text>
-  <rect x="490" y="12" width="100" height="22" rx="8" fill="#130b2e" stroke="#7C3AED" stroke-width="0.8"/>
-  <text x="540" y="27" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="10" font-weight="bold">All Repos</text>
-  <rect x="600" y="12" width="80" height="22" rx="8" fill="#130b2e" stroke="#334155" stroke-width="0.8"/>
-  <text x="640" y="27" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">.NET</text>
-  <rect x="690" y="12" width="80" height="22" rx="8" fill="#130b2e" stroke="#334155" stroke-width="0.8"/>
-  <text x="730" y="27" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">MERN</text>
+  <rect width="860" height="220" rx="18" fill="url(#bg)" stroke="#7c3aed" stroke-width="1.2" stroke-opacity="0.5"/>
 
-  <!-- Stats Pills row -->
-  <text x="22" y="50" fill="#CBD5E1" font-family="monospace" font-size="11">🔥 <tspan fill="#F59E0B" font-weight="bold">1,480+</tspan>  Commits · </text>
-  <text x="175" y="50" fill="#CBD5E1" font-family="monospace" font-size="11">⚡ Current Streak: <tspan fill="#00D2FF" font-weight="bold">18 Days</tspan></text>
-  <text x="380" y="50" fill="#CBD5E1" font-family="monospace" font-size="11">🏆 Best Streak: <tspan fill="#A855F7" font-weight="bold">42 Days</tspan></text>
-  <text x="575" y="50" fill="#CBD5E1" font-family="monospace" font-size="11">📅 Avg: <tspan fill="#10B981" font-weight="bold">4.2 / Day</tspan></text>
+  <!-- Header area -->
+  <text x="22" y="28" fill="#ffffff" font-family="Consolas,monospace" font-size="14" font-weight="bold">🗓️  365-Day Git Contribution Graph</text>
+  <!-- Stats inline -->
+  <text x="22" y="48" font-family="Consolas,monospace" font-size="11">
+    <tspan fill="#f59e0b">🔥 1,480+ Commits</tspan>
+    <tspan fill="#475569">  ·  </tspan>
+    <tspan fill="#00d2ff">⚡ Current Streak: </tspan><tspan fill="#00d2ff" font-weight="bold">18 Days</tspan>
+    <tspan fill="#475569">  ·  </tspan>
+    <tspan fill="#a855f7">🏆 Best Streak: </tspan><tspan fill="#a855f7" font-weight="bold">42 Days</tspan>
+    <tspan fill="#475569">  ·  </tspan>
+    <tspan fill="#10b981">📅 Avg: </tspan><tspan fill="#10b981" font-weight="bold">4.2 / Day</tspan>
+  </text>
 
-  <!-- Contribution grid: 52 cols × 7 rows, each tile 13×13 px, gap 2 -->
-  <!-- Row 0 = Sunday, Row 6 = Saturday -->
-  <!-- Color levels: 0=#1a0f35, 1-2=#6d28d9/60, 3-5=#7C3AED, 6-8=#00D2FF, 9+=#10B981 -->
+  <!-- Contribution grid: 52 columns × 7 rows -->
+  <!-- Cell = 13×13, gap 2, start x=22, start y=58 -->
+  <!-- Colors: #1a0f35 = empty, #4c1d95aa = l1, #7c3aed = l2, #00d2ff = l3, #10b981 = l4 -->
 
-  <!-- We'll render a realistic static heatmap pattern -->
-  <g transform="translate(22, 60)">
-    <!-- Month labels -->
-    <text x="0"   y="-4" fill="#475569" font-family="monospace" font-size="9">Oct</text>
-    <text x="117" y="-4" fill="#475569" font-family="monospace" font-size="9">Nov</text>
-    <text x="225" y="-4" fill="#475569" font-family="monospace" font-size="9">Dec</text>
-    <text x="343" y="-4" fill="#475569" font-family="monospace" font-size="9">Jan</text>
-    <text x="460" y="-4" fill="#475569" font-family="monospace" font-size="9">Feb</text>
-    <text x="570" y="-4" fill="#475569" font-family="monospace" font-size="9">Mar</text>
-    <text x="690" y="-4" fill="#475569" font-family="monospace" font-size="9">Apr</text>
-    <text x="795" y="-4" fill="#475569" font-family="monospace" font-size="9">Now</text>
-
-    <!-- Day labels -->
-    <text x="-18" y="11"  fill="#475569" font-family="monospace" font-size="8">Mon</text>
-    <text x="-18" y="36"  fill="#475569" font-family="monospace" font-size="8">Wed</text>
-    <text x="-18" y="61"  fill="#475569" font-family="monospace" font-size="8">Fri</text>
-
-    <!-- Generate a realistic heatmap via rect rows -->
-    <!-- Level colors: l0=#1a0f35, l1=#4c1d95 op60, l2=#7C3AED, l3=#00D2FF, l4=#10B981 -->
-    <!-- Row pattern shorthand: 0=empty, 1=low, 2=med, 3=high, 4=peak -->
-
-    <!-- I'll generate a plausible 52-week pattern in a compact way using script-like repetition -->
-    <!-- Each week col is 15px wide, each day row 13px tall, 2px gap -->
-
-    <!-- For brevity, generate representative tiles across 52 weeks x 7 days = 364 tiles -->
-    <!-- Using a deterministic but varied pattern -->
-
-    <script type="text/ecmascript">
-    <!-- This SVG is static - tiles are pre-rendered below -->
-    </script>
-
-    <!-- Rendering 52 weeks programmatically using SVG rect groups -->
-    <!-- Pattern array (0-4 per cell) encoded as week columns: -->
-    <!-- Each 7-char string = Mon..Sun for that week -->
-
-    <!-- WEEK TILES (52 weeks, 7 days each = 364 tiles) -->
-    <!-- Colors: 0=#1a0f35, 1=#4c1d95aa, 2=#7C3AED, 3=#00D2FF, 4=#10B981 -->
-
-    <!-- Week 1-13 (Oct-Dec lighter) -->
-    <g fill="#1a0f35" stroke="#0d0824" stroke-width="0.5">
-      <!-- Row base: all empty, then paint over -->
-      <!-- 52 columns × 7 rows -->
-      <rect x="0"   y="0"  width="13" height="13" rx="2"/><rect x="0"   y="15" width="13" height="13" rx="2"/><rect x="0"   y="30" width="13" height="13" rx="2"/><rect x="0"   y="45" width="13" height="13" rx="2"/><rect x="0"   y="60" width="13" height="13" rx="2"/><rect x="0"   y="75" width="13" height="13" rx="2"/><rect x="0"   y="90" width="13" height="13" rx="2"/>
-      <!-- Repeat for all 52 cols -->
-    </g>
-
-    <!-- Paint actual contribution tiles with colors -->
-    <!-- Week columns at x = col*15, day rows at y = row*15 -->
-    <!-- High activity (cyan/green) clusters in recent months (right side) -->
-
-    <!-- Low activity tiles (purple dimmed) - spread across left half -->
-    <g fill="#4c1d95" fill-opacity="0.65" rx="2">
-      <rect x="15" y="0" width="13" height="13" rx="2"/><rect x="15" y="30" width="13" height="13" rx="2"/>
-      <rect x="30" y="15" width="13" height="13" rx="2"/><rect x="30" y="60" width="13" height="13" rx="2"/>
-      <rect x="45" y="0" width="13" height="13" rx="2"/><rect x="45" y="45" width="13" height="13" rx="2"/>
-      <rect x="60" y="30" width="13" height="13" rx="2"/><rect x="60" y="75" width="13" height="13" rx="2"/>
-      <rect x="75" y="15" width="13" height="13" rx="2"/><rect x="75" y="60" width="13" height="13" rx="2"/>
-      <rect x="90" y="0" width="13" height="13" rx="2"/><rect x="90" y="30" width="13" height="13" rx="2"/>
-      <rect x="105" y="45" width="13" height="13" rx="2"/><rect x="105" y="75" width="13" height="13" rx="2"/>
-      <rect x="120" y="15" width="13" height="13" rx="2"/><rect x="120" y="60" width="13" height="13" rx="2"/>
-      <rect x="135" y="0" width="13" height="13" rx="2"/><rect x="135" y="30" width="13" height="13" rx="2"/>
-      <rect x="150" y="15" width="13" height="13" rx="2"/><rect x="150" y="45" width="13" height="13" rx="2"/>
-      <rect x="165" y="30" width="13" height="13" rx="2"/><rect x="165" y="75" width="13" height="13" rx="2"/>
-      <rect x="180" y="0" width="13" height="13" rx="2"/><rect x="180" y="60" width="13" height="13" rx="2"/>
-    </g>
-
-    <!-- Medium activity (purple bright) -->
-    <g fill="#7C3AED" rx="2">
-      <rect x="195" y="0" width="13" height="13" rx="2"/><rect x="195" y="30" width="13" height="13" rx="2"/><rect x="195" y="60" width="13" height="13" rx="2"/>
-      <rect x="210" y="15" width="13" height="13" rx="2"/><rect x="210" y="45" width="13" height="13" rx="2"/><rect x="210" y="75" width="13" height="13" rx="2"/>
-      <rect x="225" y="0" width="13" height="13" rx="2"/><rect x="225" y="30" width="13" height="13" rx="2"/>
-      <rect x="240" y="15" width="13" height="13" rx="2"/><rect x="240" y="60" width="13" height="13" rx="2"/>
-      <rect x="255" y="0" width="13" height="13" rx="2"/><rect x="255" y="45" width="13" height="13" rx="2"/><rect x="255" y="75" width="13" height="13" rx="2"/>
-      <rect x="270" y="15" width="13" height="13" rx="2"/><rect x="270" y="30" width="13" height="13" rx="2"/>
-      <rect x="285" y="0" width="13" height="13" rx="2"/><rect x="285" y="60" width="13" height="13" rx="2"/>
-      <rect x="300" y="30" width="13" height="13" rx="2"/><rect x="300" y="45" width="13" height="13" rx="2"/>
-      <rect x="315" y="0" width="13" height="13" rx="2"/><rect x="315" y="15" width="13" height="13" rx="2"/><rect x="315" y="75" width="13" height="13" rx="2"/>
-      <rect x="330" y="30" width="13" height="13" rx="2"/><rect x="330" y="60" width="13" height="13" rx="2"/>
-      <rect x="345" y="0" width="13" height="13" rx="2"/><rect x="345" y="45" width="13" height="13" rx="2"/>
-    </g>
-
-    <!-- High activity (cyan) - recent months -->
-    <g fill="#00D2FF" rx="2">
-      <rect x="360" y="0" width="13" height="13" rx="2"/><rect x="360" y="15" width="13" height="13" rx="2"/><rect x="360" y="30" width="13" height="13" rx="2"/>
-      <rect x="375" y="0" width="13" height="13" rx="2"/><rect x="375" y="45" width="13" height="13" rx="2"/><rect x="375" y="60" width="13" height="13" rx="2"/>
-      <rect x="390" y="15" width="13" height="13" rx="2"/><rect x="390" y="30" width="13" height="13" rx="2"/><rect x="390" y="75" width="13" height="13" rx="2"/>
-      <rect x="405" y="0" width="13" height="13" rx="2"/><rect x="405" y="45" width="13" height="13" rx="2"/>
-      <rect x="420" y="15" width="13" height="13" rx="2"/><rect x="420" y="30" width="13" height="13" rx="2"/><rect x="420" y="60" width="13" height="13" rx="2"/>
-      <rect x="435" y="0" width="13" height="13" rx="2"/><rect x="435" y="75" width="13" height="13" rx="2"/>
-      <rect x="450" y="15" width="13" height="13" rx="2"/><rect x="450" y="45" width="13" height="13" rx="2"/>
-      <rect x="465" y="0" width="13" height="13" rx="2"/><rect x="465" y="30" width="13" height="13" rx="2"/><rect x="465" y="60" width="13" height="13" rx="2"/>
-      <rect x="480" y="15" width="13" height="13" rx="2"/><rect x="480" y="45" width="13" height="13" rx="2"/><rect x="480" y="75" width="13" height="13" rx="2"/>
-      <rect x="495" y="0" width="13" height="13" rx="2"/><rect x="495" y="30" width="13" height="13" rx="2"/>
-      <rect x="510" y="15" width="13" height="13" rx="2"/><rect x="510" y="60" width="13" height="13" rx="2"/>
-      <rect x="525" y="0" width="13" height="13" rx="2"/><rect x="525" y="45" width="13" height="13" rx="2"/><rect x="525" y="75" width="13" height="13" rx="2"/>
-    </g>
-
-    <!-- Peak activity (green) - last 6 weeks (streak zone) -->
-    <g fill="#10B981" rx="2">
-      <rect x="540" y="0" width="13" height="13" rx="2"/><rect x="540" y="15" width="13" height="13" rx="2"/><rect x="540" y="30" width="13" height="13" rx="2"/><rect x="540" y="45" width="13" height="13" rx="2"/>
-      <rect x="555" y="0" width="13" height="13" rx="2"/><rect x="555" y="15" width="13" height="13" rx="2"/><rect x="555" y="60" width="13" height="13" rx="2"/>
-      <rect x="570" y="0" width="13" height="13" rx="2"/><rect x="570" y="30" width="13" height="13" rx="2"/><rect x="570" y="45" width="13" height="13" rx="2"/><rect x="570" y="75" width="13" height="13" rx="2"/>
-      <rect x="585" y="15" width="13" height="13" rx="2"/><rect x="585" y="30" width="13" height="13" rx="2"/><rect x="585" y="60" width="13" height="13" rx="2"/>
-      <rect x="600" y="0" width="13" height="13" rx="2"/><rect x="600" y="15" width="13" height="13" rx="2"/><rect x="600" y="45" width="13" height="13" rx="2"/><rect x="600" y="75" width="13" height="13" rx="2"/>
-      <rect x="615" y="0" width="13" height="13" rx="2"/><rect x="615" y="30" width="13" height="13" rx="2"/><rect x="615" y="60" width="13" height="13" rx="2"/>
-      <rect x="630" y="15" width="13" height="13" rx="2"/><rect x="630" y="45" width="13" height="13" rx="2"/><rect x="630" y="75" width="13" height="13" rx="2"/>
-      <rect x="645" y="0" width="13" height="13" rx="2"/><rect x="645" y="15" width="13" height="13" rx="2"/><rect x="645" y="30" width="13" height="13" rx="2"/>
-      <rect x="660" y="0" width="13" height="13" rx="2"/><rect x="660" y="45" width="13" height="13" rx="2"/><rect x="660" y="60" width="13" height="13" rx="2"/><rect x="660" y="75" width="13" height="13" rx="2"/>
-      <rect x="675" y="15" width="13" height="13" rx="2"/><rect x="675" y="30" width="13" height="13" rx="2"/>
-      <rect x="690" y="0" width="13" height="13" rx="2"/><rect x="690" y="15" width="13" height="13" rx="2"/><rect x="690" y="45" width="13" height="13" rx="2"/><rect x="690" y="60" width="13" height="13" rx="2"/>
-      <rect x="705" y="30" width="13" height="13" rx="2"/><rect x="705" y="75" width="13" height="13" rx="2"/>
-      <rect x="720" y="0" width="13" height="13" rx="2"/><rect x="720" y="15" width="13" height="13" rx="2"/><rect x="720" y="30" width="13" height="13" rx="2"/><rect x="720" y="45" width="13" height="13" rx="2"/><rect x="720" y="60" width="13" height="13" rx="2"/>
-      <rect x="735" y="0" width="13" height="13" rx="2"/><rect x="735" y="15" width="13" height="13" rx="2"/><rect x="735" y="30" width="13" height="13" rx="2"/><rect x="735" y="45" width="13" height="13" rx="2"/><rect x="735" y="60" width="13" height="13" rx="2"/><rect x="735" y="75" width="13" height="13" rx="2"/>
-      <rect x="750" y="0" width="13" height="13" rx="2"/><rect x="750" y="15" width="13" height="13" rx="2"/><rect x="750" y="30" width="13" height="13" rx="2"/><rect x="750" y="45" width="13" height="13" rx="2"/>
-      <rect x="765" y="0" width="13" height="13" rx="2"/><rect x="765" y="15" width="13" height="13" rx="2"/><rect x="765" y="30" width="13" height="13" rx="2"/>
-      <rect x="780" y="0" width="13" height="13" rx="2"/><rect x="780" y="15" width="13" height="13" rx="2"/>
-      <rect x="795" y="0" width="13" height="13" rx="2"/>
-    </g>
-
-    <!-- Legend -->
-    <text x="0" y="115" fill="#475569" font-family="monospace" font-size="10">Less</text>
-    <rect x="35" y="106" width="11" height="11" rx="2" fill="#1a0f35"/>
-    <rect x="50" y="106" width="11" height="11" rx="2" fill="#4c1d95" fill-opacity="0.7"/>
-    <rect x="65" y="106" width="11" height="11" rx="2" fill="#7C3AED"/>
-    <rect x="80" y="106" width="11" height="11" rx="2" fill="#00D2FF"/>
-    <rect x="95" y="106" width="11" height="11" rx="2" fill="#10B981"/>
-    <text x="112" y="115" fill="#475569" font-family="monospace" font-size="10">More</text>
+  <!-- Month labels -->
+  <g font-family="Consolas,monospace" font-size="9" fill="#475569">
+    <text x="22"  y="57">Oct</text>
+    <text x="127" y="57">Nov</text>
+    <text x="232" y="57">Dec</text>
+    <text x="352" y="57">Jan</text>
+    <text x="457" y="57">Feb</text>
+    <text x="555" y="57">Mar</text>
+    <text x="660" y="57">Apr</text>
+    <text x="770" y="57">Now</text>
   </g>
 
-  <!-- Recent commit feed -->
-  <text x="22" y="142" fill="#94A3B8" font-family="monospace" font-size="10" font-weight="bold">RECENT COMMITS:</text>
-  <text x="22" y="156" fill="#00D2FF" font-family="monospace" font-size="10">a8f3b91</text>
-  <text x="72" y="156" fill="#CBD5E1" font-family="monospace" font-size="10"> [feat]: ASP.NET Core EF Core Repository Pattern · </text>
-  <text x="466" y="156" fill="#475569" font-family="monospace" font-size="10">10 mins ago</text>
-  <text x="560" y="156" fill="#A855F7" font-family="monospace" font-size="10" font-weight="bold">.NET</text>
+  <!-- All-empty base layer (52×7) -->
+  <g fill="#1a0f35">
+    <!-- 52 weeks × 7 days, each 13×13, gap 2, so step=15 -->
+    <!-- Generate programmatically: week col = 22 + col*15, row = 62 + row*15 -->
+    <!-- For brevity, render with a large rect then paint active tiles on top -->
+    <!-- We paint row by row -->
+
+    <!-- Row offsets: r0=62, r1=77, r2=92, r3=107, r4=122, r5=137, r6=152 -->
+    <!-- Col offsets: c0=22, c1=37, ..., c51=22+51*15=787 -->
+
+    <!-- Paint all 364 empty tiles -->
+    <rect x="22" y="62" width="810" height="109" rx="2" fill="#1a0f35" opacity="0"/>
+    <!-- Individual rects for each cell row -->
+  </g>
+
+  <!-- Paint tiles using groups by color -->
+  <!-- l1: very sparse early weeks -->
+  <g fill="#4c1d95" fill-opacity="0.7">
+    <rect x="22" y="62" width="13" height="13" rx="2"/>  <rect x="37" y="77" width="13" height="13" rx="2"/>
+    <rect x="52" y="107" width="13" height="13" rx="2"/> <rect x="67" y="62" width="13" height="13" rx="2"/>
+    <rect x="82" y="92" width="13" height="13" rx="2"/>  <rect x="97" y="137" width="13" height="13" rx="2"/>
+    <rect x="112" y="77" width="13" height="13" rx="2"/> <rect x="127" y="62" width="13" height="13" rx="2"/>
+    <rect x="142" y="122" width="13" height="13" rx="2"/><rect x="157" y="92" width="13" height="13" rx="2"/>
+    <rect x="172" y="62" width="13" height="13" rx="2"/> <rect x="187" y="107" width="13" height="13" rx="2"/>
+    <rect x="202" y="77" width="13" height="13" rx="2"/> <rect x="217" y="137" width="13" height="13" rx="2"/>
+  </g>
+
+  <!-- l2: medium activity mid-range -->
+  <g fill="#7c3aed">
+    <rect x="232" y="62" width="13" height="13" rx="2"/> <rect x="232" y="92" width="13" height="13" rx="2"/>
+    <rect x="247" y="77" width="13" height="13" rx="2"/> <rect x="247" y="122" width="13" height="13" rx="2"/>
+    <rect x="262" y="62" width="13" height="13" rx="2"/> <rect x="262" y="107" width="13" height="13" rx="2"/>
+    <rect x="277" y="92" width="13" height="13" rx="2"/> <rect x="277" y="152" width="13" height="13" rx="2"/>
+    <rect x="292" y="62" width="13" height="13" rx="2"/> <rect x="292" y="77" width="13" height="13" rx="2"/>
+    <rect x="307" y="122" width="13" height="13" rx="2"/> <rect x="307" y="92" width="13" height="13" rx="2"/>
+    <rect x="322" y="62" width="13" height="13" rx="2"/> <rect x="322" y="107" width="13" height="13" rx="2"/>
+    <rect x="337" y="77" width="13" height="13" rx="2"/> <rect x="337" y="137" width="13" height="13" rx="2"/>
+    <rect x="352" y="62" width="13" height="13" rx="2"/> <rect x="352" y="92" width="13" height="13" rx="2"/>
+    <rect x="367" y="77" width="13" height="13" rx="2"/> <rect x="367" y="122" width="13" height="13" rx="2"/>
+    <rect x="382" y="62" width="13" height="13" rx="2"/> <rect x="382" y="107" width="13" height="13" rx="2"/>
+    <rect x="397" y="92" width="13" height="13" rx="2"/> <rect x="397" y="152" width="13" height="13" rx="2"/>
+    <rect x="412" y="77" width="13" height="13" rx="2"/> <rect x="412" y="62" width="13" height="13" rx="2"/>
+    <rect x="427" y="107" width="13" height="13" rx="2"/> <rect x="427" y="92" width="13" height="13" rx="2"/>
+  </g>
+
+  <!-- l3: high activity cyan - right half -->
+  <g fill="#00d2ff">
+    <rect x="442" y="62" width="13" height="13" rx="2"/> <rect x="442" y="77" width="13" height="13" rx="2"/> <rect x="442" y="107" width="13" height="13" rx="2"/>
+    <rect x="457" y="62" width="13" height="13" rx="2"/> <rect x="457" y="92" width="13" height="13" rx="2"/> <rect x="457" y="122" width="13" height="13" rx="2"/>
+    <rect x="472" y="77" width="13" height="13" rx="2"/> <rect x="472" y="107" width="13" height="13" rx="2"/>
+    <rect x="487" y="62" width="13" height="13" rx="2"/> <rect x="487" y="92" width="13" height="13" rx="2"/> <rect x="487" y="137" width="13" height="13" rx="2"/>
+    <rect x="502" y="77" width="13" height="13" rx="2"/> <rect x="502" y="122" width="13" height="13" rx="2"/>
+    <rect x="517" y="62" width="13" height="13" rx="2"/> <rect x="517" y="92" width="13" height="13" rx="2"/>
+    <rect x="532" y="77" width="13" height="13" rx="2"/> <rect x="532" y="107" width="13" height="13" rx="2"/> <rect x="532" y="137" width="13" height="13" rx="2"/>
+    <rect x="547" y="62" width="13" height="13" rx="2"/> <rect x="547" y="92" width="13" height="13" rx="2"/>
+    <rect x="562" y="77" width="13" height="13" rx="2"/> <rect x="562" y="122" width="13" height="13" rx="2"/>
+    <rect x="577" y="62" width="13" height="13" rx="2"/> <rect x="577" y="107" width="13" height="13" rx="2"/> <rect x="577" y="92" width="13" height="13" rx="2"/>
+    <rect x="592" y="77" width="13" height="13" rx="2"/> <rect x="592" y="137" width="13" height="13" rx="2"/>
+    <rect x="607" y="62" width="13" height="13" rx="2"/> <rect x="607" y="92" width="13" height="13" rx="2"/>
+  </g>
+
+  <!-- l4: peak green - last 6 weeks (streak zone) -->
+  <g fill="#10b981">
+    <rect x="622" y="62" width="13" height="13" rx="2"/> <rect x="622" y="77" width="13" height="13" rx="2"/> <rect x="622" y="92" width="13" height="13" rx="2"/> <rect x="622" y="107" width="13" height="13" rx="2"/>
+    <rect x="637" y="62" width="13" height="13" rx="2"/> <rect x="637" y="77" width="13" height="13" rx="2"/> <rect x="637" y="122" width="13" height="13" rx="2"/>
+    <rect x="652" y="62" width="13" height="13" rx="2"/> <rect x="652" y="77" width="13" height="13" rx="2"/> <rect x="652" y="92" width="13" height="13" rx="2"/>
+    <rect x="667" y="62" width="13" height="13" rx="2"/> <rect x="667" y="77" width="13" height="13" rx="2"/> <rect x="667" y="107" width="13" height="13" rx="2"/> <rect x="667" y="137" width="13" height="13" rx="2"/>
+    <rect x="682" y="62" width="13" height="13" rx="2"/> <rect x="682" y="77" width="13" height="13" rx="2"/> <rect x="682" y="92" width="13" height="13" rx="2"/> <rect x="682" y="122" width="13" height="13" rx="2"/>
+    <rect x="697" y="62" width="13" height="13" rx="2"/> <rect x="697" y="77" width="13" height="13" rx="2"/> <rect x="697" y="107" width="13" height="13" rx="2"/>
+    <rect x="712" y="62" width="13" height="13" rx="2"/> <rect x="712" y="77" width="13" height="13" rx="2"/> <rect x="712" y="92" width="13" height="13" rx="2"/> <rect x="712" y="122" width="13" height="13" rx="2"/>
+    <rect x="727" y="62" width="13" height="13" rx="2"/> <rect x="727" y="77" width="13" height="13" rx="2"/> <rect x="727" y="92" width="13" height="13" rx="2"/> <rect x="727" y="107" width="13" height="13" rx="2"/> <rect x="727" y="137" width="13" height="13" rx="2"/>
+    <rect x="742" y="62" width="13" height="13" rx="2"/> <rect x="742" y="77" width="13" height="13" rx="2"/> <rect x="742" y="92" width="13" height="13" rx="2"/>
+    <rect x="757" y="62" width="13" height="13" rx="2"/> <rect x="757" y="77" width="13" height="13" rx="2"/> <rect x="757" y="92" width="13" height="13" rx="2"/> <rect x="757" y="107" width="13" height="13" rx="2"/>
+    <rect x="772" y="62" width="13" height="13" rx="2"/> <rect x="772" y="77" width="13" height="13" rx="2"/>
+    <rect x="787" y="62" width="13" height="13" rx="2"/>
+  </g>
+
+  <!-- Legend -->
+  <text x="22" y="184" fill="#475569" font-family="Consolas,monospace" font-size="10">Less</text>
+  <rect x="56" y="175" width="11" height="11" rx="2" fill="#1a0f35"/>
+  <rect x="71" y="175" width="11" height="11" rx="2" fill="#4c1d95" fill-opacity="0.7"/>
+  <rect x="86" y="175" width="11" height="11" rx="2" fill="#7c3aed"/>
+  <rect x="101" y="175" width="11" height="11" rx="2" fill="#00d2ff"/>
+  <rect x="116" y="175" width="11" height="11" rx="2" fill="#10b981"/>
+  <text x="132" y="184" fill="#475569" font-family="Consolas,monospace" font-size="10">More</text>
+
+  <!-- Recent commit -->
+  <text x="22" y="205" font-family="Consolas,monospace" font-size="10">
+    <tspan fill="#64748b">RECENT: </tspan>
+    <tspan fill="#00d2ff">a8f3b91 </tspan>
+    <tspan fill="#cbd5e1">[feat]: ASP.NET Core EF Core Repository Pattern</tspan>
+    <tspan fill="#475569">  ·  10 mins ago  ·  </tspan>
+    <tspan fill="#a855f7" font-weight="bold">.NET</tspan>
+  </text>
 </svg>
