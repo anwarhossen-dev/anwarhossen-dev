@@ -1,0 +1,70 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+  <title>MD. Anwar Hossen (আনোয়ার হোসেন) - Full-Stack Software Engineer Bangladesh</title>
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b071e"/>
+      <stop offset="40%" stop-color="#180e36"/>
+      <stop offset="100%" stop-color="#090518"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#00D2FF"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="240" rx="20" fill="url(#heroGrad)" stroke="#7C3AED" stroke-width="2"/>
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="#7C3AED" stroke-width="0.3" opacity="0.15">
+    <line x1="0" y1="60" x2="900" y2="60"/>
+    <line x1="0" y1="120" x2="900" y2="120"/>
+    <line x1="0" y1="180" x2="900" y2="180"/>
+    <line x1="150" y1="0" x2="150" y2="240"/>
+    <line x1="300" y1="0" x2="300" y2="240"/>
+    <line x1="450" y1="0" x2="450" y2="240"/>
+    <line x1="600" y1="0" x2="600" y2="240"/>
+    <line x1="750" y1="0" x2="750" y2="240"/>
+  </g>
+
+  <!-- Bottom Wave -->
+  <path d="M 0 185 Q 225 155, 450 185 T 900 170 L 900 240 L 0 240 Z" fill="url(#waveGrad)"/>
+
+  <!-- Corner Decorations -->
+  <rect x="20" y="20" width="30" height="3" rx="2" fill="#A855F7"/>
+  <rect x="20" y="20" width="3" height="30" rx="2" fill="#A855F7"/>
+  <rect x="850" y="20" width="30" height="3" rx="2" fill="#00D2FF"/>
+  <rect x="877" y="20" width="3" height="30" rx="2" fill="#00D2FF"/>
+  <rect x="20" y="217" width="30" height="3" rx="2" fill="#10B981"/>
+  <rect x="20" y="190" width="3" height="30" rx="2" fill="#10B981"/>
+  <rect x="850" y="217" width="30" height="3" rx="2" fill="#F59E0B"/>
+  <rect x="877" y="190" width="3" height="30" rx="2" fill="#F59E0B"/>
+
+  <!-- Status Dot -->
+  <circle cx="45" cy="50" r="5" fill="#10B981" filter="url(#glow)"/>
+  <text x="58" y="55" fill="#10B981" font-family="monospace" font-size="11" font-weight="bold">ONLINE · AVAILABLE FOR HIRE</text>
+
+  <!-- Main Name -->
+  <text x="50%" y="100" text-anchor="middle" fill="url(#nameGrad)" font-family="'Fira Code', monospace, sans-serif" font-size="42" font-weight="bold" letter-spacing="3" filter="url(#glow)">MD. ANWAR HOSSEN</text>
+
+  <!-- Bengali Name -->
+  <text x="50%" y="128" text-anchor="middle" fill="#A855F7" font-family="sans-serif" font-size="15" opacity="0.85">আনোয়ার হোসেন · এমডি আনোয়ার হোসেন</text>
+
+  <!-- Title -->
+  <text x="50%" y="158" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="18" font-weight="bold" letter-spacing="1">Full-Stack Software Engineer (.NET Ecosystem &amp; MERN Stack)</text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="183" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="13">⚡ Full-Stack Developer at Genuine Technology &amp; Research Ltd. · Bangladesh 🇧🇩</text>
+
+  <!-- Bottom Tag -->
+  <text x="50%" y="225" text-anchor="middle" fill="#94A3B8" font-family="monospace" font-size="11">&lt; 2 Years Professional Experience · ASP.NET Core · C# · React · Next.js · SQL</text>
+</svg>

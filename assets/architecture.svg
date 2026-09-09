@@ -1,23 +1,59 @@
-<svg width="800" height="160" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="160" rx="16" fill="#0b071e" stroke="#7C3AED" stroke-width="1.5"/>
+<svg width="900" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b071e"/>
+      <stop offset="100%" stop-color="#130f2e"/>
+    </linearGradient>
+    <marker id="arrowH" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#00D2FF" opacity="0.8"/>
+    </marker>
+  </defs>
 
-  <!-- Layer 1 -->
-  <rect x="30" y="45" width="160" height="70" rx="10" fill="#130b2e" stroke="#A855F7" stroke-width="1.5"/>
-  <text x="110" y="75" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="13" font-weight="bold">Presentation Layer</text>
-  <text x="110" y="95" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">React / Next.js SPA</text>
+  <rect width="900" height="180" rx="16" fill="url(#archBg)" stroke="#7C3AED" stroke-width="1.5"/>
 
-  <!-- Layer 2 -->
-  <rect x="230" y="45" width="160" height="70" rx="10" fill="#130b2e" stroke="#00D2FF" stroke-width="1.5"/>
-  <text x="310" y="75" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="13" font-weight="bold">API Controllers</text>
-  <text x="310" y="95" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">ASP.NET Core Web API</text>
+  <!-- Title -->
+  <text x="450" y="24" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="13" font-weight="bold">🏗️ Enterprise 4-Tier Full-Stack Architecture — High-Concurrency Design</text>
 
-  <!-- Layer 3 -->
-  <rect x="430" y="45" width="160" height="70" rx="10" fill="#130b2e" stroke="#10B981" stroke-width="1.5"/>
-  <text x="510" y="75" text-anchor="middle" fill="#10B981" font-family="monospace" font-size="13" font-weight="bold">Business Services</text>
-  <text x="510" y="95" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">Clean Arch &amp; EF Core</text>
+  <!-- Layer 1: Presentation -->
+  <rect x="20" y="50" width="175" height="90" rx="12" fill="#130b2e" stroke="#A855F7" stroke-width="2"/>
+  <text x="107" y="80" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="12" font-weight="bold">🖥 Presentation</text>
+  <text x="107" y="98" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">React.js / Next.js 14</text>
+  <text x="107" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">Tailwind CSS · SPA</text>
+  <rect x="30" y="128" width="155" height="5" rx="3" fill="#A855F7" opacity="0.4"/>
 
-  <!-- Layer 4 -->
-  <rect x="630" y="45" width="140" height="70" rx="10" fill="#130b2e" stroke="#F59E0B" stroke-width="1.5"/>
-  <text x="700" y="75" text-anchor="middle" fill="#F59E0B" font-family="monospace" font-size="13" font-weight="bold">Data Layer</text>
-  <text x="700" y="95" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">MS SQL / MongoDB</text>
+  <!-- Arrow 1 -->
+  <line x1="196" y1="95" x2="230" y2="95" stroke="#00D2FF" stroke-width="2" marker-end="url(#arrowH)" opacity="0.8"/>
+  <text x="213" y="88" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">HTTPS</text>
+
+  <!-- Layer 2: API -->
+  <rect x="231" y="50" width="175" height="90" rx="12" fill="#0d0824" stroke="#00D2FF" stroke-width="2"/>
+  <text x="318" y="80" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">🔌 API Layer</text>
+  <text x="318" y="98" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">ASP.NET Core 8</text>
+  <text x="318" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">REST · JWT · Swagger</text>
+  <rect x="241" y="128" width="155" height="5" rx="3" fill="#00D2FF" opacity="0.4"/>
+
+  <!-- Arrow 2 -->
+  <line x1="407" y1="95" x2="441" y2="95" stroke="#00D2FF" stroke-width="2" marker-end="url(#arrowH)" opacity="0.8"/>
+  <text x="424" y="88" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">DI / CQRS</text>
+
+  <!-- Layer 3: Business -->
+  <rect x="442" y="50" width="175" height="90" rx="12" fill="#080515" stroke="#10B981" stroke-width="2"/>
+  <text x="529" y="80" text-anchor="middle" fill="#10B981" font-family="monospace" font-size="12" font-weight="bold">⚙ Business Logic</text>
+  <text x="529" y="98" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">Clean Architecture</text>
+  <text x="529" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">EF Core · Repository</text>
+  <rect x="452" y="128" width="155" height="5" rx="3" fill="#10B981" opacity="0.4"/>
+
+  <!-- Arrow 3 -->
+  <line x1="618" y1="95" x2="652" y2="95" stroke="#00D2FF" stroke-width="2" marker-end="url(#arrowH)" opacity="0.8"/>
+  <text x="635" y="88" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">ORM / ADO</text>
+
+  <!-- Layer 4: Data -->
+  <rect x="653" y="50" width="225" height="90" rx="12" fill="#0a0620" stroke="#F59E0B" stroke-width="2"/>
+  <text x="765" y="80" text-anchor="middle" fill="#F59E0B" font-family="monospace" font-size="12" font-weight="bold">🗄 Data Layer</text>
+  <text x="765" y="98" text-anchor="middle" fill="#CBD5E1" font-family="sans-serif" font-size="11">MS SQL Server · MongoDB</text>
+  <text x="765" y="115" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">Stored Proc · Indexing · Sharding</text>
+  <rect x="663" y="128" width="205" height="5" rx="3" fill="#F59E0B" opacity="0.4"/>
+
+  <!-- Footer -->
+  <text x="450" y="167" text-anchor="middle" fill="#475569" font-family="monospace" font-size="11">Engineered for High-Concurrency · Zero-Lag Response · Genuine Technology &amp; Research Ltd.</text>
 </svg>

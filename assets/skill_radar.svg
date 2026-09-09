@@ -1,0 +1,63 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="srBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b071e"/>
+      <stop offset="100%" stop-color="#130f2e"/>
+    </linearGradient>
+    <linearGradient id="srFill" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0.25"/>
+    </linearGradient>
+    <filter id="srGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="320" rx="16" fill="url(#srBg)" stroke="#7C3AED" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="450" y="28" text-anchor="middle" fill="#00D2FF" font-family="monospace" font-size="13" font-weight="bold">🎯 Engineering Skill Radar — .NET &amp; MERN Stack Full-Stack Developer</text>
+
+  <!-- Pentagon Guide Rings (3 levels) -->
+  <!-- Outer -->
+  <polygon points="450,55 590,135 542,258 358,258 310,135" fill="none" stroke="#334155" stroke-width="1" opacity="0.5"/>
+  <!-- Mid -->
+  <polygon points="450,88 536,147 506,222 394,222 364,147" fill="none" stroke="#334155" stroke-width="1" opacity="0.4"/>
+  <!-- Inner -->
+  <polygon points="450,121 482,159 470,186 430,186 418,159" fill="none" stroke="#334155" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Spoke Lines -->
+  <line x1="450" y1="55"  x2="450" y2="258" stroke="#334155" stroke-width="0.7" opacity="0.4"/>
+  <line x1="590" y1="135" x2="310" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.4"/>
+  <line x1="542" y1="258" x2="360" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.3"/>
+  <line x1="358" y1="258" x2="540" y2="135" stroke="#334155" stroke-width="0.7" opacity="0.3"/>
+
+  <!-- Data Shape (88% avg scale) -->
+  <polygon points="450,62 575,138 532,248 368,250 326,136" fill="url(#srFill)" stroke="#00D2FF" stroke-width="2.5" filter="url(#srGlow)"/>
+
+  <!-- Data Points with colored dots -->
+  <circle cx="450" cy="62"  r="6" fill="#A855F7" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+  <circle cx="575" cy="138" r="6" fill="#00D2FF" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+  <circle cx="532" cy="248" r="6" fill="#10B981" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+  <circle cx="368" cy="250" r="6" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+  <circle cx="326" cy="136" r="6" fill="#EC4899" stroke="#FFFFFF" stroke-width="2" filter="url(#srGlow)"/>
+
+  <!-- Skill Labels -->
+  <text x="450" y="44" text-anchor="middle" fill="#A855F7" font-family="monospace" font-size="12" font-weight="bold">ASP.NET Core &amp; C# · 85%</text>
+
+  <text x="600" y="128" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">React &amp; MERN</text>
+  <text x="600" y="143" fill="#00D2FF" font-family="monospace" font-size="11">88%</text>
+
+  <text x="540" y="272" fill="#10B981" font-family="monospace" font-size="12" font-weight="bold">SQL Optimization</text>
+  <text x="556" y="286" fill="#10B981" font-family="monospace" font-size="11">82%</text>
+
+  <text x="200" y="272" fill="#F59E0B" font-family="monospace" font-size="12" font-weight="bold">MongoDB &amp; NoSQL</text>
+  <text x="230" y="286" fill="#F59E0B" font-family="monospace" font-size="11">80%</text>
+
+  <text x="155" y="128" fill="#EC4899" font-family="monospace" font-size="12" font-weight="bold">Git &amp; DevOps</text>
+  <text x="175" y="143" fill="#EC4899" font-family="monospace" font-size="11">86%</text>
+
+  <!-- Bottom Label -->
+  <text x="450" y="308" text-anchor="middle" fill="#475569" font-family="monospace" font-size="11">Self-assessed competency · Growing rapidly · &lt; 2 Years Experience · Genuine Technology &amp; Research Ltd.</text>
+</svg>
