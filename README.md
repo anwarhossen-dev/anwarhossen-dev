@@ -64,6 +64,17 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
+<!-- Live Vercel Interactive Dashboard Action Banner -->
+<div align="center">
+  <a href="https://anwarhossengithub.vercel.app" target="_blank" style="text-decoration: none;">
+    <span style="background: linear-gradient(90deg, #7C3AED, #00D2FF); color: white; padding: 12px 24px; border-radius: 12px; font-family: monospace; font-size: 14px; font-weight: bold; border: 1px solid #00D2FF;">
+      🚀 OPEN LIVE INTERACTIVE GIT DASHBOARD (VERCEL) ↗
+    </span>
+  </a>
+</div>
+
+<br/>
+
 <!-- 3. Semantic Heading & Introduction -->
 <div align="center">
   <h1>Anwar Hossen (আনোয়ার হোসেন) | MD. Anwar Hossen</h1>
@@ -260,4 +271,3 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
     Official Masterpiece Profile of <b>MD. Anwar Hossen (আনোয়ার হোসেন)</b> • Designed with ❤️ &amp; Scalability in Mind • Copyright © 2026 MD. Anwar Hossen
   </p>
 </div>
-# anwarhossengithub
