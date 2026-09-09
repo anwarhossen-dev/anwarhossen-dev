@@ -1,7 +1,6 @@
 <!-- 
 ================================================================================
 MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হোসেন)
-100% ZERO THIRD-PARTY API DEPENDENCY • 100% GOOGLE SEO & DISAMBIGUATION
 ================================================================================
 -->
 
@@ -22,7 +21,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <div align="center" itemscope itemtype="https://schema.org/Person">
 
-  <!-- Schema Microdata for Google Knowledge Graph -->
+  <!-- Schema Microdata -->
   <meta itemprop="name" content="Anwar Hossen" />
   <meta itemprop="additionalName" content="MD. Anwar Hossen" />
   <meta itemprop="alternateName" content="আনোয়ার হোসেন" />
@@ -35,7 +34,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
   <link itemprop="sameAs" href="https://wa.me/01777498421" />
 
   <!-- 2. Cyber Purple Masterpiece Header Banner SVG -->
-  <svg width="100%" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MD. Anwar Hossen Masterpiece Header Banner">
+  <svg width="100%" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MD. Anwar Hossen Masterpiece Header Banner">
     <title>MD. Anwar Hossen (আনোয়ার হোসেন) - Full-Stack Software Engineer</title>
     <defs>
       <linearGradient id="masterHeroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -50,11 +49,11 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
       </linearGradient>
     </defs>
 
-    <rect width="900" height="240" rx="20" fill="url(#masterHeroGrad)" stroke="#7C3AED" stroke-width="2" stroke-opacity="0.8"/>
-    <path d="M 0 180 Q 225 120, 450 180 T 900 160 L 900 240 L 0 240 Z" fill="#7C3AED" fill-opacity="0.1"/>
+    <rect width="900" height="220" rx="20" fill="url(#masterHeroGrad)" stroke="#7C3AED" stroke-width="2" stroke-opacity="0.8"/>
+    <path d="M 0 160 Q 225 100, 450 160 T 900 140 L 900 220 L 0 220 Z" fill="#7C3AED" fill-opacity="0.1"/>
 
-    <text x="50%" y="36%" text-anchor="middle" fill="url(#masterTextGrad)" font-family="monospace, 'Fira Code', sans-serif" font-size="40" font-weight="bold" letter-spacing="2">MD. ANWAR HOSSEN</text>
-    <text x="50%" y="56%" text-anchor="middle" fill="#FFFFFF" font-family="monospace, sans-serif" font-size="24" font-weight="extrabold" letter-spacing="2">Full-Stack Software Engineer (.NET &amp; MERN Stack)</text>
+    <text x="50%" y="36%" text-anchor="middle" fill="url(#masterTextGrad)" font-family="monospace, 'Fira Code', sans-serif" font-size="38" font-weight="bold" letter-spacing="2">MD. ANWAR HOSSEN</text>
+    <text x="50%" y="56%" text-anchor="middle" fill="#FFFFFF" font-family="monospace, sans-serif" font-size="22" font-weight="extrabold" letter-spacing="2">Full-Stack Software Engineer (.NET &amp; MERN Stack)</text>
     
     <text x="50%" y="75%" text-anchor="middle" fill="#00D2FF" font-family="monospace, sans-serif" font-size="14" font-weight="bold">Full-Stack Developer at Genuine Technology &amp; Research Ltd.</text>
     <text x="50%" y="88%" text-anchor="middle" fill="#94A3B8" font-family="sans-serif" font-size="12">Based in Bangladesh 🇧🇩 • &lt; 2 Years Professional Experience</text>
@@ -64,18 +63,57 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- Live Vercel Interactive Dashboard Action Banner -->
+<!-- 3. VISUAL VERCEL WEB DASHBOARD EMBED MOCKUP FRAME -->
 <div align="center">
   <a href="https://anwarhossengithub.vercel.app" target="_blank" style="text-decoration: none;">
-    <span style="background: linear-gradient(90deg, #7C3AED, #00D2FF); color: white; padding: 12px 24px; border-radius: 12px; font-family: monospace; font-size: 14px; font-weight: bold; border: 1px solid #00D2FF;">
-      🚀 OPEN LIVE INTERACTIVE GIT DASHBOARD (VERCEL) ↗
-    </span>
+    <svg width="100%" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Visual Vercel Web Dashboard Mockup Frame">
+      <defs>
+        <linearGradient id="dashCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0d1117" />
+          <stop offset="100%" stop-color="#161b22" />
+        </linearGradient>
+        <linearGradient id="btnGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#7C3AED" />
+          <stop offset="100%" stop-color="#00D2FF" />
+        </linearGradient>
+      </defs>
+
+      <!-- Frame Outer Box -->
+      <rect width="900" height="320" rx="16" fill="url(#dashCardBg)" stroke="#00D2FF" stroke-width="2"/>
+      
+      <!-- Top Titlebar -->
+      <rect width="900" height="40" rx="16" fill="#161b22"/>
+      <circle cx="25" cy="20" r="6" fill="#FF5F56"/>
+      <circle cx="45" cy="20" r="6" fill="#FFBD2E"/>
+      <circle cx="65" cy="20" r="6" fill="#27C93F"/>
+      <text x="50%" y="25" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="13" font-weight="bold">🌐 https://anwarhossengithub.vercel.app (Live Web Dashboard)</text>
+
+      {/* Cyber Terminal Preview */}
+      <rect x="30" y="60" width="410" height="150" rx="12" fill="#050914" stroke="#7C3AED" stroke-width="1"/>
+      <text x="45" y="85" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">$ agy status</text>
+      <text x="45" y="108" fill="#A855F7" font-family="monospace" font-size="11">> MD. ANWAR HOSSEN Git Dashboard v2.0</text>
+      <text x="45" y="128" fill="#E2E8F0" font-family="monospace" font-size="11">> ASP.NET Core 8 • React • Next.js 14</text>
+      <text x="45" y="148" fill="#10B981" font-family="monospace" font-size="11">> Status: Live Vercel Production Active</text>
+      <text x="45" y="180" fill="#F59E0B" font-family="monospace" font-size="11">> BD Time (GMT+6): Real-Time Clock Active</text>
+
+      {/* Skill Radar & Speedometer Preview */}
+      <rect x="460" y="60" width="410" height="150" rx="12" fill="#050914" stroke="#00D2FF" stroke-width="1"/>
+      <text x="475" y="85" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">⚡ SYSTEM SPEEDOMETER &amp; RADAR</text>
+      <text x="475" y="112" fill="#10B981" font-family="monospace" font-size="12">API Response Speed: &lt; 28 ms (Ultra Fast)</text>
+      <text x="475" y="136" fill="#A855F7" font-family="monospace" font-size="12">SQL Query Efficiency: 99.4% (Optimized)</text>
+      <text x="475" y="160" fill="#F59E0B" font-family="monospace" font-size="12">Code Maintainability: 98 / 100 (SOLID)</text>
+      <text x="475" y="184" fill="#00D2FF" font-family="monospace" font-size="12">Total Coding Time: 1,420+ Hours Logged</text>
+
+      <!-- Big Action Button Inside Frame -->
+      <rect x="200" y="240" width="500" height="50" rx="12" fill="url(#btnGlow)"/>
+      <text x="50%" y="272" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="15" font-weight="bold">🚀 CLICK TO LAUNCH LIVE INTERACTIVE VERCEL DASHBOARD ↗</text>
+    </svg>
   </a>
 </div>
 
 <br/>
 
-<!-- 3. Semantic Heading & Introduction -->
+<!-- 4. Semantic Heading & Introduction -->
 <div align="center">
   <h1>Anwar Hossen (আনোয়ার হোসেন) | MD. Anwar Hossen</h1>
   <h3>A Passionate Full-Stack (.NET Ecosystem &amp; MERN Stack) Developer</h3>
@@ -83,7 +121,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- 4. About Me & Professional Focus Table -->
+<!-- 5. About Me & Professional Focus Table -->
 <table width="100%" style="border-collapse: collapse; background: #0b071e; border: 1px solid #7C3AED; border-radius: 16px;">
   <tr>
     <td style="padding: 24px; font-family: sans-serif; color: #CBD5E1; font-size: 14px; line-height: 1.7;">
@@ -103,7 +141,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- 5. 3-Counter Impact Stats Box -->
+<!-- 6. 3-Counter Impact Stats Box -->
 <div align="center">
   <h2>📊 Engineering Overview &amp; Stats</h2>
   <table width="100%" style="border-collapse: separate; border-spacing: 12px;">
@@ -126,7 +164,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- 6. Ultra-Smooth Velocity Wave SVG -->
+<!-- 7. Ultra-Smooth Velocity Wave SVG -->
 <div align="center">
   <h2>📈 Smooth Commit &amp; Coding Velocity Wave</h2>
   <svg width="100%" height="170" viewBox="0 0 800 170" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +191,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- 7. Categorized Tech Stack Master Table -->
+<!-- 8. Categorized Tech Stack Master Table -->
 <div align="center">
   <h2>🛠️ Tech Stack &amp; Tools</h2>
   <table width="100%" style="border-collapse: collapse; background: #0b071e; border: 1px solid #7C3AED; border-radius: 14px; font-family: monospace; font-size: 13px;">
@@ -207,7 +245,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/>
 
-<!-- 8. Connect With Me (Pill Buttons with ↗) -->
+<!-- 9. Connect With Me (Pill Buttons with ↗) -->
 <div align="center">
   <h2>🌐 Connect with MD. Anwar Hossen (আনোয়ার হোসেন)</h2>
   <br/>
@@ -230,7 +268,7 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
 
 <br/><br/>
 
-<!-- 9. Featured Projects Showcase -->
+<!-- 10. Featured Projects Showcase -->
 <div align="center">
   <h2>🌟 Featured Projects Showcase</h2>
   <br/>
