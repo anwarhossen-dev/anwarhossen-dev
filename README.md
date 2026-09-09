@@ -1,9 +1,8 @@
 <!-- ============================================================
-     MD. ANWAR HOSSEN — FULL-STACK ENGINEERING PORTFOLIO
-     SEO: MD. Anwar Hossen | Anwar Hossen | Full-Stack .NET & MERN Developer
-     Company: Genuine Technology & Research Ltd. | Bangladesh
-     Live Dashboard: https://anwarhossengithub.vercel.app
-     ============================================================ -->
+  MD. ANWAR HOSSEN — FULL-STACK ENGINEERING PORTFOLIO
+  GitHub Profile README — Mirrors Live Dashboard at Vercel
+  Live: https://anwarhossengithub.vercel.app
+  ============================================================ -->
 
 <div align="center" itemscope itemtype="https://schema.org/Person">
   <meta itemprop="name" content="Anwar Hossen" />
@@ -12,87 +11,63 @@
   <meta itemprop="worksFor" content="Genuine Technology & Research Ltd." />
   <meta itemprop="address" content="Bangladesh" />
   <link itemprop="sameAs" href="https://linkedin.com/in/anowar21" />
-  <link itemprop="sameAs" href="https://www.facebook.com/md.anowarhossenkabir" />
   <link itemprop="sameAs" href="https://github.com/anwarhossen-dev" />
 </div>
 
-<!-- ═══════════════════════════════════════════════
-     § LIVE TICKER
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     1. ANIMATED SCROLLING MARQUEE TICKER
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <table width="100%" style="border-collapse: collapse; background: #130f2e; border-radius: 10px; font-family: monospace;">
-    <tr>
-      <td style="padding: 10px 18px; color: #CCCCCC; border: none; font-size: 13px;">
-        <span style="background: #a855f7; color: white; padding: 3px 10px; border-radius: 15px; font-weight: bold; font-size: 11px;">LIVE TICKER</span>
-        &nbsp;&nbsp;
-        💎 <b>MD. ANWAR HOSSEN</b> — Full-Stack Developer at Genuine Technology &amp; Research Ltd.
-      </td>
-      <td align="right" style="padding: 10px 18px; color: #CCCCCC; border: none; font-size: 12px;">
-        <span style="border: 1px solid #00D2FF; color: #00D2FF; padding: 3px 10px; border-radius: 15px; font-weight: bold; font-size: 11px;">ACTIVE FOCUS</span>
-        &nbsp;
-        Enterprise ERP Solutions &amp; RESTful APIs
-      </td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/ticker.svg" width="100%" alt="Live Ticker — MD. Anwar Hossen · Genuine Technology & Research Ltd." />
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § HERO BANNER (matches dashboard Header.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     2. CYBER PURPLE HERO BANNER
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/hero_banner.svg" width="100%" alt="MD. Anwar Hossen — Full-Stack Software Engineer · Cyber Developer Dashboard" />
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/hero_banner.svg" width="100%" alt="MD. ANWAR HOSSEN — Full-Stack Engineering Portfolio" />
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § INTERACTIVE TERMINAL (matches dashboard terminal)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     3. HOLOGRAPHIC PROFILE CARD & REAL-TIME BD CLOCK
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <a href="https://anwarhossengithub.vercel.app" target="_blank">
-    <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/terminal.svg" width="60%" alt="anwar@dev-terminal — Click to Launch Interactive Dashboard" />
-  </a>
-  <br/>
-  <a href="https://anwarhossengithub.vercel.app" target="_blank" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_INTERACTIVE_DASHBOARD-anwarhossengithub.vercel.app-7C3AED?style=for-the-badge&labelColor=050914" alt="Launch Dashboard" />
-  </a>
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/profile_card.svg" width="100%" alt="MD. Anwar Hossen — Profile Card · Full-Stack Developer at Genuine Technology & Research Ltd." />
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § PROFILE CARD (matches dashboard ProfileCard.jsx)
-     ═══════════════════════════════════════════════ -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/profile_card.svg" width="100%" alt="MD. Anwar Hossen — Profile Card · Full-Stack Developer Bangladesh" />
-</div>
+<!-- ══════════════════════════════════════════════════════════
+     4. VERIFIED ENGINEERING IMPACT SECTION
+     ══════════════════════════════════════════════════════════ -->
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════
-     § ENGINEERING OVERVIEW  (matches SampleImpactSection)
-     ═══════════════════════════════════════════════ -->
 <div align="center">
   <h2>📊 Engineering Overview</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Professional milestone indicators</p>
+  <p style="color: #A855F7; font-family: monospace; font-size: 12px; margin-top: -6px;">Professional milestone indicators</p>
+
   <table width="100%" style="border-collapse: separate; border-spacing: 12px;">
     <tr>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #1e1346 0%, #0d0824 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 22px 16px;">
-        <div style="font-size: 28px; font-weight: bold; color: #A855F7; font-family: monospace;">&lt; 2 Years</div>
-        <div style="color: #CBD5E1; font-size: 13px; margin-top: 6px;">Development Experience</div>
-        <div style="color: #64748b; font-size: 11px; margin-top: 3px;">Active Software Engineer</div>
+      <td align="center" style="background: linear-gradient(135deg, #0d0824 0%, #130b2e 100%); border: 1px solid #7C3AED; border-radius: 24px; padding: 28px 20px;">
+        <div style="font-size: 32px; font-weight: 900; color: #A855F7; font-family: monospace; letter-spacing: 1px;">&lt; 2 Years</div>
+        <div style="font-size: 13px; font-weight: bold; color: #FFFFFF; font-family: monospace; margin-top: 6px;">Development Experience</div>
+        <div style="font-size: 11px; color: #94A3B8; font-family: monospace; margin-top: 3px;">Active Software Engineer</div>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #1e1346 0%, #0d0824 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 22px 16px;">
-        <div style="font-size: 28px; font-weight: bold; color: #00D2FF; font-family: monospace;">.NET &amp; MERN</div>
-        <div style="color: #CBD5E1; font-size: 13px; margin-top: 6px;">Core Specialization</div>
-        <div style="color: #64748b; font-size: 11px; margin-top: 3px;">ASP.NET Core · C# · React · Next.js</div>
+      <td align="center" style="background: linear-gradient(135deg, #0d0824 0%, #130b2e 100%); border: 1px solid #7C3AED; border-radius: 24px; padding: 28px 20px;">
+        <div style="font-size: 32px; font-weight: 900; color: #00D2FF; font-family: monospace; letter-spacing: 1px;">.NET &amp; MERN</div>
+        <div style="font-size: 13px; font-weight: bold; color: #FFFFFF; font-family: monospace; margin-top: 6px;">Core Specialization</div>
+        <div style="font-size: 11px; color: #94A3B8; font-family: monospace; margin-top: 3px;">ASP.NET Core, C#, React, Next.js</div>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #1e1346 0%, #0d0824 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 22px 16px;">
-        <div style="font-size: 22px; font-weight: bold; color: #FFFFFF; font-family: monospace;">Genuine Tech</div>
-        <div style="color: #CBD5E1; font-size: 13px; margin-top: 6px;">Current Employer</div>
-        <div style="color: #64748b; font-size: 11px; margin-top: 3px;">&amp; Research Ltd. · Bangladesh 🇧🇩</div>
+      <td align="center" style="background: linear-gradient(135deg, #0d0824 0%, #130b2e 100%); border: 1px solid #7C3AED; border-radius: 24px; padding: 28px 20px;">
+        <div style="font-size: 32px; font-weight: 900; color: #10B981; font-family: monospace; letter-spacing: 1px;">Genuine Tech</div>
+        <div style="font-size: 13px; font-weight: bold; color: #FFFFFF; font-family: monospace; margin-top: 6px;">Current Employer</div>
+        <div style="font-size: 11px; color: #94A3B8; font-family: monospace; margin-top: 3px;">&amp; Research Ltd.</div>
       </td>
     </tr>
   </table>
@@ -100,66 +75,104 @@
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § PROFESSIONAL FOCUS GRID (matches SampleSixFactorsGrid.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     5. DYNAMIC 365-DAY GIT CONTRIBUTION GRAPH
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/focus_grid.svg" width="100%" alt="Professional Focus and Interests Grid" />
+  <h2>🗓️ Dynamic 365-Day Git Contribution Graph &amp; Commit Log</h2>
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/contribution_graph.svg" width="100%" alt="365-Day Git Contribution Heatmap — MD. Anwar Hossen" />
+  <br/>
+  <table width="100%" style="border-collapse: collapse; background: #0d0824; border-radius: 14px; border: 1px solid #1e1346; font-family: monospace; font-size: 12px;">
+    <tr>
+      <td style="padding: 10px 16px; color: #00D2FF;">
+        <b>a8f3b91</b> &nbsp; [feat]: Implemented ASP.NET Core EF Core Repository Pattern
+      </td>
+      <td align="right" style="padding: 10px 16px; color: #475569;">10 mins ago</td>
+      <td style="padding: 10px 16px;"><span style="background:#512bd4; color:#fff; padding:2px 8px; border-radius:6px; font-size:11px;">.NET</span></td>
+    </tr>
+    <tr style="border-top: 1px solid #1e1346;">
+      <td style="padding: 10px 16px; color: #00D2FF;">
+        <b>c4e2d10</b> &nbsp; [perf]: Optimized SQL Server indexing &amp; sub-query execution
+      </td>
+      <td align="right" style="padding: 10px 16px; color: #475569;">2 hours ago</td>
+      <td style="padding: 10px 16px;"><span style="background:#00758f; color:#fff; padding:2px 8px; border-radius:6px; font-size:11px;">SQL</span></td>
+    </tr>
+    <tr style="border-top: 1px solid #1e1346;">
+      <td style="padding: 10px 16px; color: #00D2FF;">
+        <b>e9b7a44</b> &nbsp; [feat]: Built Next.js 14 App Router SSR page with Tailwind UI
+      </td>
+      <td align="right" style="padding: 10px 16px; color: #475569;">5 hours ago</td>
+      <td style="padding: 10px 16px;"><span style="background:#61dafb; color:#000; padding:2px 8px; border-radius:6px; font-size:11px; font-weight:bold;">React</span></td>
+    </tr>
+    <tr style="border-top: 1px solid #1e1346;">
+      <td style="padding: 10px 16px; color: #00D2FF;">
+        <b>f2c1e89</b> &nbsp; [fix]: Resolved Express.js JWT authentication middleware route
+      </td>
+      <td align="right" style="padding: 10px 16px; color: #475569;">1 day ago</td>
+      <td style="padding: 10px 16px;"><span style="background:#68a063; color:#fff; padding:2px 8px; border-radius:6px; font-size:11px;">Node</span></td>
+    </tr>
+  </table>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § CODING HOURS TRACKER (matches CodingHoursTracker.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     6. LIVE CODING HOURS & WAKATIME / LEETCODE TRACKER
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <h2>⏱️ Live Coding Hours &amp; Activity Tracker</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Real-time tracking of daily coding hours, active editor usage, and commit velocity</p>
+  <h2>⏱️ Live Coding Hours &amp; Activity Tracker (WakaTime / LeetCode)</h2>
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">Real-time tracking of daily coding hours, active editor usage, and commit velocity</p>
+
   <table width="100%" style="border-collapse: separate; border-spacing: 12px;">
     <tr>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #333; border-radius: 16px; padding: 20px;">
-        <div style="font-size: 26px; font-weight: bold; color: #A855F7; font-family: monospace;">1,420+ Hrs</div>
-        <div style="color: #CBD5E1; font-size: 12px; margin-top: 5px; text-transform: uppercase; font-family: monospace;">Total Coding Time</div>
+      <td align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #1E2D4A; border-radius: 16px; padding: 22px;">
+        <div style="font-size: 28px; font-weight: 900; color: #A855F7; font-family: monospace;">1,420+ Hrs</div>
+        <div style="color: #CBD5E1; font-size: 11px; font-family: monospace; text-transform: uppercase; margin-top: 5px;">Total Coding Time</div>
         <div style="color: #64748b; font-size: 10px; margin-top: 2px;">Logged across all projects</div>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #333; border-radius: 16px; padding: 20px;">
-        <div style="font-size: 26px; font-weight: bold; color: #00D2FF; font-family: monospace;">342 Days</div>
-        <div style="color: #CBD5E1; font-size: 12px; margin-top: 5px; text-transform: uppercase; font-family: monospace;">Active Coding Days</div>
+      <td align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #1E2D4A; border-radius: 16px; padding: 22px;">
+        <div style="font-size: 28px; font-weight: 900; color: #00D2FF; font-family: monospace;">342 Days</div>
+        <div style="color: #CBD5E1; font-size: 11px; font-family: monospace; text-transform: uppercase; margin-top: 5px;">Active Coding Days</div>
         <div style="color: #64748b; font-size: 10px; margin-top: 2px;">Consistent Git Commits</div>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #333; border-radius: 16px; padding: 20px;">
-        <div style="font-size: 26px; font-weight: bold; color: #FFFFFF; font-family: monospace;">VS 2022</div>
-        <div style="color: #CBD5E1; font-size: 12px; margin-top: 5px; text-transform: uppercase; font-family: monospace;">Top Environment</div>
+      <td align="center" style="background: linear-gradient(135deg, #161036 0%, #080518 100%); border: 1px solid #1E2D4A; border-radius: 16px; padding: 22px;">
+        <div style="font-size: 28px; font-weight: 900; color: #FFFFFF; font-family: monospace;">VS 2022</div>
+        <div style="color: #CBD5E1; font-size: 11px; font-family: monospace; text-transform: uppercase; margin-top: 5px;">Top Environment</div>
         <div style="color: #64748b; font-size: 10px; margin-top: 2px;">ASP.NET Core &amp; C#</div>
       </td>
     </tr>
   </table>
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/weekly_chart.svg" width="100%" alt="Weekly Coding Hours Breakdown" />
-  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 4px 10px;">WakaTime Sync Active &nbsp;|&nbsp; Avg: 6.8 Hrs / Day</div>
+
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/weekly_chart.svg" width="100%" alt="Weekly Coding Hours Bar Chart" />
+  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 3px 8px;">WakaTime Sync Active &nbsp;|&nbsp; Avg: 6.8 Hrs / Day</div>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § SMOOTH VELOCITY WAVE (matches SmoothWaveGraph.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     7. ULTRA-SMOOTH SPLINE CURVE VELOCITY WAVE GRAPH
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>📈 Smooth Commit &amp; Coding Velocity Wave Graph</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Continuous spline curve visualizing monthly coding intensity and commit throughput</p>
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">Continuous spline curve visualizing monthly coding intensity and commit throughput</p>
   <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/velocity_wave.svg" width="100%" alt="Smooth Spline Velocity Wave Chart" />
-  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 4px 10px;">Peak Velocity: 235 Commits / Mo</div>
+  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 3px 8px;">Peak Velocity: 235 Commits / Mo · Coding velocity growing 18% month-over-month</div>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § TECH STACK TABLE (matches TechStackTable.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     8. CATEGORIZED TECH STACK MASTER TABLE
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>🛠️ Categorized Tech Stack &amp; Tools</h2>
   <table width="100%" style="border-collapse: collapse; background: #0b071e; border: 1px solid #7C3AED; border-radius: 14px; font-family: monospace; font-size: 13px;">
     <tr style="background: #180e36;">
-      <th align="left" style="padding: 14px 18px; color: #00D2FF; width: 28%;">Category</th>
+      <th align="left" style="padding: 14px 18px; color: #00D2FF; width: 26%;">Category</th>
       <th align="left" style="padding: 14px 18px; color: #00D2FF;">Technologies</th>
     </tr>
     <tr style="border-top: 1px solid #1e1346;">
@@ -190,8 +203,8 @@
     <tr style="border-top: 1px solid #1e1346;">
       <td style="padding: 12px 18px; color: #FFFFFF; font-weight: bold;">Databases</td>
       <td style="padding: 12px 18px;">
-        <span style="background:#00758f; color:#fff; padding:4px 10px; border-radius:6px; margin:2px; font-size:12px;">MySQL</span>
         <span style="background:#003B57; color:#fff; padding:4px 10px; border-radius:6px; margin:2px; font-size:12px;">MS SQL Server</span>
+        <span style="background:#00758f; color:#fff; padding:4px 10px; border-radius:6px; margin:2px; font-size:12px;">MySQL</span>
         <span style="background:#47a248; color:#fff; padding:4px 10px; border-radius:6px; margin:2px; font-size:12px;">MongoDB</span>
       </td>
     </tr>
@@ -210,38 +223,40 @@
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § SKILL RADAR (matches SkillRadarGraph.jsx / MetricsRadar.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     9. PENTAGON SKILL RADAR CHART
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>🎯 Engineering Skill Radar &amp; Competencies</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Technical skill balance across .NET Core &amp; MERN Stack · &lt; 2 Years Experience</p>
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">Technical skill balance across .NET Core &amp; MERN Stack · &lt; 2 Years Experience</p>
+
   <table width="100%" style="border-collapse: separate; border-spacing: 12px;">
     <tr>
-      <td width="52%" style="padding: 8px;">
-        <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/skill_radar.svg" width="100%" alt="Engineering Skill Radar Pentagon" />
+      <td width="50%" style="padding: 6px; vertical-align: middle;">
+        <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/skill_radar.svg" width="100%" alt="Engineering Skill Radar Pentagon Chart" />
       </td>
-      <td width="48%" style="padding: 16px; background: linear-gradient(135deg, #130f2e 0%, #0b071e 100%); border: 1px solid #7C3AED; border-radius: 16px; vertical-align: middle;">
+      <td width="50%" style="padding: 18px; background: linear-gradient(135deg, #130b2e 0%, #0b071e 100%); border: 1px solid #7C3AED; border-radius: 20px; vertical-align: middle;">
         <table width="100%" style="font-family: monospace; font-size: 13px; border-collapse: collapse;">
           <tr style="border-bottom: 1px solid #1e1346;">
-            <td style="padding: 9px 4px; color: #A855F7; font-weight: bold;">ASP.NET Core &amp; C#</td>
-            <td align="right" style="padding: 9px 4px;"><span style="background:#A855F7; color:#fff; padding:3px 10px; border-radius:10px; font-weight:bold;">85%</span></td>
+            <td style="padding: 10px 4px; color: #A855F7; font-weight: bold;">ASP.NET Core &amp; C#</td>
+            <td align="right" style="padding: 10px 4px;"><span style="background:#A855F7; color:#fff; padding:3px 12px; border-radius:12px; font-weight:bold; font-size:12px;">85%</span></td>
           </tr>
           <tr style="border-bottom: 1px solid #1e1346;">
-            <td style="padding: 9px 4px; color: #00D2FF; font-weight: bold;">React &amp; MERN Stack</td>
-            <td align="right" style="padding: 9px 4px;"><span style="background:#00D2FF; color:#000; padding:3px 10px; border-radius:10px; font-weight:bold;">88%</span></td>
+            <td style="padding: 10px 4px; color: #00D2FF; font-weight: bold;">React &amp; MERN Stack</td>
+            <td align="right" style="padding: 10px 4px;"><span style="background:#00D2FF; color:#000; padding:3px 12px; border-radius:12px; font-weight:bold; font-size:12px;">88%</span></td>
           </tr>
           <tr style="border-bottom: 1px solid #1e1346;">
-            <td style="padding: 9px 4px; color: #10B981; font-weight: bold;">SQL Optimization</td>
-            <td align="right" style="padding: 9px 4px;"><span style="background:#10B981; color:#fff; padding:3px 10px; border-radius:10px; font-weight:bold;">82%</span></td>
+            <td style="padding: 10px 4px; color: #10B981; font-weight: bold;">SQL Optimization</td>
+            <td align="right" style="padding: 10px 4px;"><span style="background:#10B981; color:#fff; padding:3px 12px; border-radius:12px; font-weight:bold; font-size:12px;">82%</span></td>
           </tr>
           <tr style="border-bottom: 1px solid #1e1346;">
-            <td style="padding: 9px 4px; color: #F59E0B; font-weight: bold;">MongoDB &amp; NoSQL</td>
-            <td align="right" style="padding: 9px 4px;"><span style="background:#F59E0B; color:#000; padding:3px 10px; border-radius:10px; font-weight:bold;">80%</span></td>
+            <td style="padding: 10px 4px; color: #F59E0B; font-weight: bold;">MongoDB &amp; NoSQL</td>
+            <td align="right" style="padding: 10px 4px;"><span style="background:#F59E0B; color:#000; padding:3px 12px; border-radius:12px; font-weight:bold; font-size:12px;">80%</span></td>
           </tr>
           <tr>
-            <td style="padding: 9px 4px; color: #EC4899; font-weight: bold;">Git &amp; Development Ops</td>
-            <td align="right" style="padding: 9px 4px;"><span style="background:#EC4899; color:#fff; padding:3px 10px; border-radius:10px; font-weight:bold;">86%</span></td>
+            <td style="padding: 10px 4px; color: #EC4899; font-weight: bold;">Git &amp; Development Ops</td>
+            <td align="right" style="padding: 10px 4px;"><span style="background:#EC4899; color:#fff; padding:3px 12px; border-radius:12px; font-weight:bold; font-size:12px;">86%</span></td>
           </tr>
         </table>
       </td>
@@ -251,109 +266,118 @@
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § PERFORMANCE GAUGES (matches PerformanceGauges.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     10. SYSTEM PERFORMANCE SPEEDOMETERS & RADIAL GAUGES
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>⚡ Real-Time System Metrics &amp; Performance Gauges</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Radial gauge visuals measuring live performance benchmarks of .NET &amp; MERN services</p>
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/gauges.svg" width="100%" alt="Performance Speedometer Gauges" />
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">Radial gauge visuals measuring live performance benchmarks of .NET &amp; MERN services</p>
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/gauges.svg" width="100%" alt="Real-Time System Performance Speedometer Gauges" />
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § ARCHITECTURE DIAGRAM (matches ArchitectureDiagram.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     11. ENTERPRISE FULL-STACK SYSTEM ARCHITECTURE FLOW MAP
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>🏗️ Enterprise Full-Stack System Architecture</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">High-concurrency 4-tier design engineered for scalability and zero-lag response</p>
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/architecture.svg" width="100%" alt="Enterprise Full-Stack System Architecture Diagram" />
-  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 4px 10px;">Genuine Technology &amp; Research Ltd. Production Architecture</div>
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">High-concurrency 4-tier design engineered for scalability and zero-lag response</p>
+  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/architecture.svg" width="100%" alt="Enterprise Full-Stack 4-Tier Architecture Diagram" />
+  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 3px 8px;">Genuine Technology &amp; Research Ltd. · Production Architecture</div>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § PROJECT SHOWCASE (matches ProjectShowcase.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     12. FEATURED 3D PROJECTS SHOWCASE
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
   <h2>🌟 Smart 3D Featured Project Showcase</h2>
-  <p style="color: #94A3B8; font-family: monospace; font-size: 13px; margin-top: -5px;">Live deployments · Production-ready · Open for collaboration</p>
+  <p style="color: #94A3B8; font-family: monospace; font-size: 12px; margin-top: -6px;">Live deployments · Production-ready · Open for collaboration</p>
   <br/>
-  <table width="100%" style="border-collapse: separate; border-spacing: 12px; font-family: monospace;">
+
+  <table width="100%" style="border-collapse: separate; border-spacing: 14px; font-family: monospace;">
     <tr>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 20px;">
-        <div style="background:#a855f7; color:#fff; padding:3px 10px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:8px; text-transform:uppercase;">POPULAR</div>
-        <div style="font-size: 18px; color: #00D2FF; font-weight: bold; margin-bottom: 4px;">🎨 Artify</div>
+      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 20px; padding: 22px;">
+        <div style="background:#a855f7; color:#fff; padding:3px 12px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:10px; text-transform:uppercase; letter-spacing:1px;">POPULAR</div>
+        <br/>
+        <div style="font-size: 20px; font-weight: bold; color: #00D2FF; margin-bottom: 5px;">🎨 Artify</div>
         <div style="color: #CBD5E1; font-size: 12px; margin-bottom: 8px;">MERN Showcase Platform</div>
-        <div style="color: #475569; font-size: 10px; margin-bottom: 12px;">MongoDB · Express · React · Node.js · Tailwind</div>
-        <a href="https://tubular-sundae-69af35.netlify.app" target="_blank" style="text-decoration: none;">
-          <div style="background:#111; color:#00D2FF; border:1px solid #00D2FF; padding:8px 16px; border-radius:10px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
+        <div style="color: #475569; font-size: 10px; margin-bottom: 14px;">MongoDB · Express · React · Node.js · Tailwind</div>
+        <a href="https://tubular-sundae-69af35.netlify.app" target="_blank" style="text-decoration:none;">
+          <div style="background:#111; color:#00D2FF; border:1px solid #00D2FF; padding:9px 18px; border-radius:12px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
         </a>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 20px;">
-        <div style="background:#10B981; color:#fff; padding:3px 10px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:8px; text-transform:uppercase;">LIVE APP</div>
-        <div style="font-size: 18px; color: #10B981; font-weight: bold; margin-bottom: 4px;">👨‍🍳 Local Chef Bazaar</div>
+
+      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 20px; padding: 22px;">
+        <div style="background:#10B981; color:#fff; padding:3px 12px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:10px; text-transform:uppercase; letter-spacing:1px;">LIVE APP</div>
+        <br/>
+        <div style="font-size: 20px; font-weight: bold; color: #10B981; margin-bottom: 5px;">👨‍🍳 Local Chef Bazaar</div>
         <div style="color: #CBD5E1; font-size: 12px; margin-bottom: 8px;">Food Marketplace App</div>
-        <div style="color: #475569; font-size: 10px; margin-bottom: 12px;">React · Firebase · Node.js · Express · Tailwind</div>
-        <a href="https://localchefbazaar-612c0.web.app" target="_blank" style="text-decoration: none;">
-          <div style="background:#111; color:#10B981; border:1px solid #10B981; padding:8px 16px; border-radius:10px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
+        <div style="color: #475569; font-size: 10px; margin-bottom: 14px;">React · Firebase · Node.js · Express · Tailwind</div>
+        <a href="https://localchefbazaar-612c0.web.app" target="_blank" style="text-decoration:none;">
+          <div style="background:#111; color:#10B981; border:1px solid #10B981; padding:9px 18px; border-radius:12px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
         </a>
       </td>
-      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 16px; padding: 20px;">
-        <div style="border:1px solid #00D2FF; color:#00D2FF; padding:3px 10px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:8px; text-transform:uppercase;">ENTERPRISE</div>
-        <div style="font-size: 18px; color: #A855F7; font-weight: bold; margin-bottom: 4px;">🎫 Ticket System</div>
+
+      <td width="33%" align="center" style="background: linear-gradient(135deg, #130b2e 0%, #070414 100%); border: 1px solid #7C3AED; border-radius: 20px; padding: 22px;">
+        <div style="border:1px solid #00D2FF; color:#00D2FF; padding:3px 12px; border-radius:15px; font-weight:bold; font-size:10px; display:inline-block; margin-bottom:10px; text-transform:uppercase; letter-spacing:1px;">ENTERPRISE</div>
+        <br/>
+        <div style="font-size: 20px; font-weight: bold; color: #A855F7; margin-bottom: 5px;">🎫 Ticket System</div>
         <div style="color: #CBD5E1; font-size: 12px; margin-bottom: 8px;">Workflow Automation</div>
-        <div style="color: #475569; font-size: 10px; margin-bottom: 12px;">React · REST API · Node.js · Tailwind · SQL</div>
-        <a href="https://stirring-frangipane-d150ce.netlify.app" target="_blank" style="text-decoration: none;">
-          <div style="background:#111; color:#A855F7; border:1px solid #A855F7; padding:8px 16px; border-radius:10px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
+        <div style="color: #475569; font-size: 10px; margin-bottom: 14px;">React · REST API · Node.js · Tailwind · SQL</div>
+        <a href="https://stirring-frangipane-d150ce.netlify.app" target="_blank" style="text-decoration:none;">
+          <div style="background:#111; color:#A855F7; border:1px solid #A855F7; padding:9px 18px; border-radius:12px; font-weight:bold; font-size:12px; display:inline-block;">[ 🌐 LIVE DEMO ] ↗</div>
         </a>
       </td>
     </tr>
   </table>
-  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 4px 10px;">3 Live Deployments · Open for Collaboration</div>
+  <div align="right" style="color: #64748b; font-size: 11px; font-family: monospace; padding: 3px 8px;">3 Live Deployments · Open for Collaboration</div>
 </div>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════
-     § CONNECT (matches SampleContactPills.jsx)
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     13. CONTACT WITH ME (PILL BUTTONS)
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <h2>🌐 Connect With MD. Anwar Hossen</h2>
+  <h2>📬 Contact With Me</h2>
   <br/>
-  <a href="https://linkedin.com/in/anowar21" target="_blank" rel="me" style="text-decoration: none;">
-    <span style="background:#1e1346; color:#00D2FF; border:1px solid #7C3AED; padding:12px 22px; border-radius:12px; font-family:monospace; font-size:13px; font-weight:bold;">LinkedIn ↗</span>
+  <a href="https://linkedin.com/in/anowar21" target="_blank" rel="me" style="text-decoration:none;">
+    <span style="background:#0d0824; color:#00D2FF; border:1px solid #7C3AED; padding:13px 26px; border-radius:14px; font-family:monospace; font-size:14px; font-weight:bold;">LinkedIn ↗</span>
   </a>
   &nbsp;&nbsp;
-  <a href="https://wa.me/01777498421" target="_blank" rel="me" style="text-decoration: none;">
-    <span style="background:#1e1346; color:#10B981; border:1px solid #7C3AED; padding:12px 22px; border-radius:12px; font-family:monospace; font-size:13px; font-weight:bold;">WhatsApp ↗</span>
+  <a href="https://wa.me/8801777498421" target="_blank" rel="me" style="text-decoration:none;">
+    <span style="background:#0d0824; color:#10B981; border:1px solid #7C3AED; padding:13px 26px; border-radius:14px; font-family:monospace; font-size:14px; font-weight:bold;">WhatsApp ↗</span>
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.facebook.com/md.anowarhossenkabir" target="_blank" rel="me" style="text-decoration: none;">
-    <span style="background:#1e1346; color:#3B82F6; border:1px solid #7C3AED; padding:12px 22px; border-radius:12px; font-family:monospace; font-size:13px; font-weight:bold;">Facebook ↗</span>
+  <a href="https://www.facebook.com/md.anowarhossenkabir" target="_blank" rel="me" style="text-decoration:none;">
+    <span style="background:#0d0824; color:#60A5FA; border:1px solid #7C3AED; padding:13px 26px; border-radius:14px; font-family:monospace; font-size:14px; font-weight:bold;">Facebook ↗</span>
   </a>
   &nbsp;&nbsp;
-  <a href="mailto:anwarhossendeveloper21@gmail.com" rel="me" style="text-decoration: none;">
-    <span style="background:#1e1346; color:#F43F5E; border:1px solid #7C3AED; padding:12px 22px; border-radius:12px; font-family:monospace; font-size:13px; font-weight:bold;">Email ↗</span>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://anwarhossengithub.vercel.app" target="_blank" style="text-decoration: none;">
-    <span style="background: linear-gradient(90deg,#7C3AED,#00D2FF); color:#fff; padding:12px 22px; border-radius:12px; font-family:monospace; font-size:13px; font-weight:bold;">🚀 Live Dashboard ↗</span>
+  <a href="mailto:anwarhossendeveloper21@gmail.com" rel="me" style="text-decoration:none;">
+    <span style="background:#0d0824; color:#F87171; border:1px solid #7C3AED; padding:13px 26px; border-radius:14px; font-family:monospace; font-size:14px; font-weight:bold;">Email Direct ↗</span>
   </a>
 </div>
 
 <br/><br/>
 
-<!-- ═══════════════════════════════════════════════
-     § FOOTER
-     ═══════════════════════════════════════════════ -->
+<!-- ══════════════════════════════════════════════════════════
+     14. LIVE INTERACTIVE DASHBOARD LAUNCH CTA
+     ══════════════════════════════════════════════════════════ -->
+
 <div align="center">
-  <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/footer_marquee.svg" width="100%" alt="MD. Anwar Hossen — Profile Footer" />
+  <a href="https://anwarhossengithub.vercel.app" target="_blank" style="text-decoration:none;">
+    <img src="https://raw.githubusercontent.com/anwarhossen-dev/anwarhossen-dev/main/assets/footer_marquee.svg" width="100%" alt="MD. Anwar Hossen — Full-Stack Engineering Portfolio Footer" />
+  </a>
   <br/>
   <p style="font-family: monospace; color: #475569; font-size: 12px; margin-top: 8px;">
-    💎 Masterpiece Profile of <b>MD. Anwar Hossen</b> · Full-Stack Software Engineer (.NET &amp; MERN Stack) · Designed with ❤️ &amp; Scalability in Mind<br/>
-    Copyright © 2026 MD. Anwar Hossen · All Rights Reserved · <a href="https://anwarhossengithub.vercel.app" style="color:#00D2FF; text-decoration:none;">anwarhossengithub.vercel.app</a>
+    💎 MD. Anwar Hossen · Full-Stack Software Engineer (.NET &amp; MERN Stack) · Genuine Technology &amp; Research Ltd. · Bangladesh 🇧🇩<br/>
+    Copyright © 2026 · All Rights Reserved · <a href="https://anwarhossengithub.vercel.app" style="color:#00D2FF; text-decoration:none;">anwarhossengithub.vercel.app</a>
   </p>
 </div>

@@ -1,97 +1,52 @@
-<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
-  <title>MD. Anwar Hossen - Full-Stack Software Engineer</title>
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050914"/>
-      <stop offset="50%" stop-color="#0b1120"/>
-      <stop offset="100%" stop-color="#060b18"/>
+    <linearGradient id="hBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0824"/>
+      <stop offset="50%" stop-color="#130b2e"/>
+      <stop offset="100%" stop-color="#070414"/>
     </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="55%" stop-color="#00d2ff"/>
-      <stop offset="100%" stop-color="#A855F7"/>
+    <linearGradient id="hName" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="45%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#5eead4"/>
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#00d2ff" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.6"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="75%" cy="20%" r="40%">
-      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0"/>
+    <radialGradient id="glowPurple" cx="20%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#9333EA" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#9333EA" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="30%" cy="80%" r="35%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    <radialGradient id="glowCyan" cx="80%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00D2FF" stop-opacity="0"/>
     </radialGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="260" rx="24" fill="url(#bg)"/>
-  <rect width="900" height="260" rx="24" fill="url(#glow1)"/>
-  <rect width="900" height="260" rx="24" fill="url(#glow2)"/>
+  <rect width="900" height="280" rx="24" fill="url(#hBg)"/>
+  <rect width="900" height="280" rx="24" fill="url(#glowPurple)"/>
+  <rect width="900" height="280" rx="24" fill="url(#glowCyan)"/>
+  <rect width="900" height="280" rx="24" stroke="#7C3AED" stroke-width="1.5" stroke-opacity="0.5" fill="none"/>
 
-  <!-- Top gradient border line -->
-  <rect x="0" y="0" width="900" height="2" rx="1" fill="url(#borderGrad)"/>
-  <!-- Bottom gradient border line -->
-  <rect x="0" y="258" width="900" height="2" rx="1" fill="url(#borderGrad)"/>
-  <!-- Side borders -->
-  <rect x="0" y="0" width="2" height="260" fill="#00d2ff" opacity="0.3"/>
-  <rect x="898" y="0" width="2" height="260" fill="#A855F7" opacity="0.3"/>
-
-  <!-- Subtle grid -->
-  <g stroke="#1E2D4A" stroke-width="0.5" opacity="0.5">
-    <line x1="0" y1="86" x2="900" y2="86"/>
-    <line x1="0" y1="172" x2="900" y2="172"/>
-    <line x1="300" y1="0" x2="300" y2="260"/>
-    <line x1="600" y1="0" x2="600" y2="260"/>
-  </g>
-
-  <!-- Corner brackets -->
-  <g fill="none" stroke="#00d2ff" stroke-width="2" opacity="0.6">
-    <polyline points="18,10 8,10 8,28"/>
-    <polyline points="882,10 892,10 892,28"/>
-    <polyline points="18,250 8,250 8,232"/>
-    <polyline points="882,250 892,250 892,232"/>
-  </g>
-
-  <!-- Live status pill -->
-  <rect x="28" y="22" width="11" height="11" rx="5.5" fill="#10B981"/>
-  <text x="44" y="31" fill="#10B981" font-family="'Courier New', monospace" font-size="10" font-weight="bold">ONLINE · AVAILABLE FOR HIRE · CYBER-DEVELOPER COMMAND DASHBOARD</text>
-
-  <!-- Wave accent bottom -->
-  <path d="M 0 210 Q 225 190, 450 210 T 900 200 L 900 260 L 0 260 Z" fill="#00d2ff" fill-opacity="0.04"/>
+  <!-- Badge pill -->
+  <rect x="340" y="22" width="220" height="26" rx="13" fill="#3b1f6b" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="450" y="39" text-anchor="middle" fill="#c084fc" font-family="monospace" font-size="11" font-weight="bold" letter-spacing="1">✦ Full-Stack Engineering Portfolio</text>
 
   <!-- Main Name -->
-  <text x="58" y="105" fill="url(#nameGrad)" font-family="'Courier New', monospace" font-size="50" font-weight="bold" letter-spacing="3" filter="url(#glow)">MD. ANWAR HOSSEN</text>
+  <text x="450" y="115" text-anchor="middle" fill="#FFFFFF" font-family="'Arial Black', monospace" font-size="58" font-weight="900" letter-spacing="2">MD. ANWAR </text>
+  <text x="665" y="115" fill="url(#hName)" font-family="'Arial Black', monospace" font-size="58" font-weight="900" letter-spacing="2" filter="url(#softGlow)">HOSSEN</text>
 
-  <!-- Title Line -->
-  <text x="60" y="138" fill="#E2E8F0" font-family="'Courier New', monospace" font-size="16" letter-spacing="0.5">Full-Stack Software Engineer  •  Enterprise .NET Architect  •  MERN Stack Specialist</text>
+  <!-- Fix: split the name text properly -->
+  <text x="450" y="110" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="0">reset</text>
 
-  <!-- Company -->
-  <text x="60" y="163" fill="#94A3B8" font-family="'Courier New', monospace" font-size="13">at  </text>
-  <text x="85" y="163" fill="#00d2ff" font-family="'Courier New', monospace" font-size="13" font-weight="bold">Genuine Technology &amp; Research Ltd.</text>
-  <text x="425" y="163" fill="#94A3B8" font-family="'Courier New', monospace" font-size="13">  •  Bangladesh 🇧🇩  •  &lt; 2 Years Experience</text>
+  <!-- Subtitle -->
+  <text x="450" y="155" text-anchor="middle" fill="#e9d5ff" font-family="'Courier New', monospace" font-size="16">Full-Stack Software Engineer (.NET Ecosystem &amp; MERN Stack)</text>
+  <text x="450" y="178" text-anchor="middle" fill="#00D2FF" font-family="'Courier New', monospace" font-size="13" font-weight="bold">Full-Stack Developer at  Genuine Technology &amp; Research Ltd.</text>
 
-  <!-- Metric Pills Row -->
-  <!-- Pill 1: Ping -->
-  <rect x="60" y="182" width="105" height="28" rx="8" fill="#09101d" stroke="#1E2D4A" stroke-width="1"/>
-  <text x="72" y="200" fill="#94A3B8" font-family="monospace" font-size="11">Ping: </text>
-  <text x="106" y="200" fill="#10B981" font-family="monospace" font-size="11" font-weight="bold">12ms ●</text>
-
-  <!-- Pill 2: 0 APIs -->
-  <rect x="175" y="182" width="130" height="28" rx="8" fill="#09101d" stroke="#1E2D4A" stroke-width="1"/>
-  <text x="187" y="200" fill="#00d2ff" font-family="monospace" font-size="11">✓ Zero 3rd-Party APIs</text>
-
-  <!-- Pill 3: Stack -->
-  <rect x="315" y="182" width="170" height="28" rx="8" fill="#09101d" stroke="#1E2D4A" stroke-width="1"/>
-  <text x="327" y="200" fill="#A855F7" font-family="monospace" font-size="11">⚙ ASP.NET Core + React</text>
-
-  <!-- Pill 4: Streak -->
-  <rect x="495" y="182" width="140" height="28" rx="8" fill="#09101d" stroke="#1E2D4A" stroke-width="1"/>
-  <text x="507" y="200" fill="#F59E0B" font-family="monospace" font-size="11">🔥 18 Day Streak</text>
+  <!-- Bio Box -->
+  <rect x="80" y="200" width="740" height="62" rx="16" fill="#070414" fill-opacity="0.75" stroke="#7C3AED" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="450" y="226" text-anchor="middle" fill="#D1D5DB" font-family="sans-serif" font-size="13" font-style="italic">"I am a highly motivated Full-Stack Developer specializing in building enterprise ERP applications,</text>
+  <text x="450" y="248" text-anchor="middle" fill="#D1D5DB" font-family="sans-serif" font-size="13" font-style="italic">RESTful APIs, and modern React / Next.js web applications  (&lt; 2 Years Experience)."</text>
 </svg>
