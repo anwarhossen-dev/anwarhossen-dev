@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0b071e;
+    color: #f1f5f9;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Sample Image Inspired Cyber Purple Theme */
+.purple-hero-bg {
+  background-color: #0b071e;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(124, 58, 237, 0.25) 0px, transparent 50%),
+    radial-gradient(at 90% 10%, rgba(0, 210, 255, 0.2) 0px, transparent 50%),
+    radial-gradient(at 50% 90%, rgba(16, 185, 129, 0.15) 0px, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+}
+
+/* Purple Glassmorphism Panels */
+.purple-glass {
+  background: linear-gradient(135deg, rgba(22, 15, 56, 0.8) 0%, rgba(13, 8, 36, 0.85) 100%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.purple-glass:hover {
+  border-color: rgba(168, 85, 247, 0.7);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.3);
+}
+
+/* Pill Button Style matching sample image */
+.pill-btn-purple {
+  background: rgba(30, 19, 70, 0.9);
+  border: 1px solid rgba(124, 58, 237, 0.6);
+  color: #00d2ff;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.pill-btn-purple:hover {
+  background: rgba(124, 58, 237, 0.4);
+  border-color: #00d2ff;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(0, 210, 255, 0.4);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b071e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e1346;
+  border-radius: 4px;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}

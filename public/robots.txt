@@ -1,0 +1,12 @@
+# Robots.txt for MD. Anwar Hossen Developer Portfolio
+User-agent: *
+Allow: /
+
+# Priority Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://linkedin.com/in/anowar21/sitemap.xml
