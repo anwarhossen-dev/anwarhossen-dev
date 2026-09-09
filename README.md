@@ -88,15 +88,15 @@ MASTERPIECE GITHUB PROFILE README - MD. ANWAR HOSSEN (আনোয়ার হ�
       <circle cx="65" cy="20" r="6" fill="#27C93F"/>
       <text x="50%" y="25" text-anchor="middle" fill="#58A6FF" font-family="monospace" font-size="13" font-weight="bold">🌐 https://anwarhossengithub.vercel.app (Live Web Dashboard)</text>
 
-      {/* Cyber Terminal Preview */}
+      <!-- Cyber Terminal Preview -->
       <rect x="30" y="60" width="410" height="150" rx="12" fill="#050914" stroke="#7C3AED" stroke-width="1"/>
       <text x="45" y="85" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">$ agy status</text>
-      <text x="45" y="108" fill="#A855F7" font-family="monospace" font-size="11">> MD. ANWAR HOSSEN Git Dashboard v2.0</text>
-      <text x="45" y="128" fill="#E2E8F0" font-family="monospace" font-size="11">> ASP.NET Core 8 • React • Next.js 14</text>
-      <text x="45" y="148" fill="#10B981" font-family="monospace" font-size="11">> Status: Live Vercel Production Active</text>
-      <text x="45" y="180" fill="#F59E0B" font-family="monospace" font-size="11">> BD Time (GMT+6): Real-Time Clock Active</text>
+      <text x="45" y="108" fill="#A855F7" font-family="monospace" font-size="11">&gt; MD. ANWAR HOSSEN Git Dashboard v2.0</text>
+      <text x="45" y="128" fill="#E2E8F0" font-family="monospace" font-size="11">&gt; ASP.NET Core 8 • React • Next.js 14</text>
+      <text x="45" y="148" fill="#10B981" font-family="monospace" font-size="11">&gt; Status: Live Vercel Production Active</text>
+      <text x="45" y="180" fill="#F59E0B" font-family="monospace" font-size="11">&gt; BD Time (GMT+6): Real-Time Clock Active</text>
 
-      {/* Skill Radar & Speedometer Preview */}
+      <!-- Skill Radar & Speedometer Preview -->
       <rect x="460" y="60" width="410" height="150" rx="12" fill="#050914" stroke="#00D2FF" stroke-width="1"/>
       <text x="475" y="85" fill="#00D2FF" font-family="monospace" font-size="12" font-weight="bold">⚡ SYSTEM SPEEDOMETER &amp; RADAR</text>
       <text x="475" y="112" fill="#10B981" font-family="monospace" font-size="12">API Response Speed: &lt; 28 ms (Ultra Fast)</text>
